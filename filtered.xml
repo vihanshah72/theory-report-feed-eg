@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 13:46:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 15:18:23 +0000</lastBuildDate>
     <item>
       <title>Time-Dependent Hamiltonian Simulation with Optimal Query Complexity</title>
       <link>https://arxiv.org/abs/2608.06094v1</link>
