@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 02:49:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 05:07:50 +0000</lastBuildDate>
     <item>
       <title>TR26-142 |  Shortest Paths with Linear Edge Weights | 
 
@@ -69,6 +69,12 @@
       <link>https://arxiv.org/abs/2608.11163v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: data stream&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Andrew+McGregor" rel="noopener noreferrer"&gt;Andrew McGregor&lt;/a&gt;&lt;/p&gt;We show that a simple extension of the randomized greedy maximal independent set algorithm yields a constant approximation for the maximum matching problem. The algorithm is a simplification of an algorithm used by Assadi et al. [JACM 2026] in the context of processing data streams in the dynamic setting where edges may be inserted and deleted. In contrast to the previous work, our analysis avoids consideration of fractional matchings and yields a significantly shorter and more direct proof of the approximation factor for the basic algorithm.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2608.11163v1</guid>
+    </item>
+    <item>
+      <title>Asymmetric Palette Sparsification, Slightly Simplified</title>
+      <link>https://arxiv.org/abs/2608.12289v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sparsification&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Andrew+McGregor" rel="noopener noreferrer"&gt;Andrew McGregor&lt;/a&gt;&lt;/p&gt;We present a slightly simplified analysis of the asymmetric palette sparsification result by Assadi and Yazdanyar [TheoretiCS, 2026]. The motivation is mainly pedagogical; our approach avoids hypergeometric concentration bounds and extra constant factors in the palette size.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2608.12289v1</guid>
     </item>
   </channel>
 </rss>
