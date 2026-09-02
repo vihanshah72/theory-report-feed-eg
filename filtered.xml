@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 21:48:27 +0000</lastBuildDate>
-    <item>
-      <title>Multi-tier Flexible Graph Connectivity</title>
-      <link>https://arxiv.org/abs/2608.28313v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Karthekeyan+Chandrasekaran" rel="noopener noreferrer"&gt;Karthekeyan Chandrasekaran&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Raymond+Jiang" rel="noopener noreferrer"&gt;Raymond Jiang&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Krishna+Kalathur" rel="noopener noreferrer"&gt;Krishna Kalathur&lt;/a&gt;&lt;/p&gt;Motivated by non-uniform edge failures in network design, we introduce a multi-tier model of flexible graph connectivity. In k-tier Flexible Graph Connectivity (k-tier FGC), the input is an undirected graph G=(V, E) with non-negative edge costs, along with a classification of the edges into nested tiers T_1 subseteq T_2 subseteq ... subseteq T_k = E and non-negative integral tier requirements q_1 &amp;lt;= q_2 &amp;lt;= ... &amp;lt;= q_k. A non-empty proper subset R of vertices is safe if it is safe along one of the tiers, i.e., there exists i in [k] such that |delta(R) cap T_i| &amp;gt;= q_i. The goal is to find a minimum cost subset F subseteq E of edges such that the subgraph (V, F) has no unsafe cuts. The case of k=1 corresponds to the min-cost p-edge-connected spanning subgraph problem which is APX-hard. We design approximation algorithms for every fixed constant k for three variants of k-tier FGC: (i) for k-tier FGC, we design an LP-based logarithmic approximation, (ii) for min-cardinality k-tier FGC, we design a combinatorial approximation whose factor depends only on the tier requirements q_1 and q_k, and (iii) for k-tier Flexible Multi-Graph Connectivity, where we are allowed to use multiple copies of each edge while paying the cost of the edge for each chosen copy of the edge, we design an LP-based 2-approximation.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2608.28313v1</guid>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 00:16:47 +0000</lastBuildDate>
     <item>
       <title>Gate-Efficient Implementation of the Query-Optimal Time-Dependent Hamiltonian Simulation</title>
       <link>https://arxiv.org/abs/2608.30629v1</link>
