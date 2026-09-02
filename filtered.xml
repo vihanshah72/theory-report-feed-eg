@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 04:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 09:40:17 +0000</lastBuildDate>
     <item>
       <title>Gate-Efficient Implementation of the Query-Optimal Time-Dependent Hamiltonian Simulation</title>
       <link>https://arxiv.org/abs/2608.30629v1</link>
@@ -27,6 +27,14 @@
   - a fixed-parameter algorithm w.r.t. the neighborhood diversity of $G$ plus $|E(P)|$, and
   - a polynomial algorithm for Pattern Avoidance on forests for almost all constant-sized patterns.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2608.30667v1</guid>
+    </item>
+    <item>
+      <title>Sensitivity Oracles for Matroid Packing, Matroid Covering, and Matching Problems with Applications</title>
+      <link>https://arxiv.org/abs/2609.01283v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: min-cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Keerti+Choudhary" rel="noopener noreferrer"&gt;Keerti Choudhary&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Amit+Kumar" rel="noopener noreferrer"&gt;Amit Kumar&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Lakshay+Saggi" rel="noopener noreferrer"&gt;Lakshay Saggi&lt;/a&gt;&lt;/p&gt;Sensitivity oracles preprocess a graph so that queries can be answered after any $f$ edge insertions and deletions, without recomputing from scratch. For structural optimization problems the known landscape is limited: for flows and cuts, all known compact oracles handle only $f\le2$ failures; existing oracles for $s$- and global min-cut apply only to undirected graphs; and for matchings, arborescence and spanning-tree packings, and arboricity, no efficient oracle is known for $f&amp;gt;1$. We present a unified algebraic framework based on sensitivity oracles for matroid packing, covering, and parity of sparse linear matroids, yielding the first oracles supporting an arbitrary number $f$ of updates across all of these problems (all constructions randomized Monte-Carlo).
+  Concretely, we obtain efficient oracles for exact $(s,t)$-max-flow/min-cut, resolving an open problem of Baswana, Bhanja, and Pandey (ICALP'22) with near-optimal space; for all-pairs $k$-bounded flow, generalizing the near-optimal reachability oracle of Brand and Saranurak (FOCS'19, the case $k=1$); the first oracles for any $f$ for directed $s$- and global min-cut; oracles for $k$-disjoint arborescences, $k$-disjoint spanning trees, colorful spanning trees, and arboricity; and oracles for the existence of an $α$-factor, with perfect matching as the case $α=1$.
+  We further introduce the \emph{subset sensitivity model}, in which updates are confined to a susceptible edge set of size $σ$ fixed during preprocessing. Here we decouple updates from the matroid representation and eliminate the dependence on $k$ and the matroid density altogether: all of the above are supported with $\widetilde O(f^ω)$ query time and $O(fσ^2)$ space. We also prove a matching $Ω(\min\{σ^2,n^2\})$-bit lower bound when $f\ge2$, establishing optimality.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.01283v1</guid>
     </item>
   </channel>
 </rss>
