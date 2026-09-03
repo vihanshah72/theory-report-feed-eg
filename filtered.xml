@@ -7,16 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 11:18:02 +0000</lastBuildDate>
-    <item>
-      <title>The (Parameterized) Complexity of Ordering a Graph While Avoiding a Forbidden Pattern</title>
-      <link>https://arxiv.org/abs/2608.30667v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: vertex coloring&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Thomas+Depian" rel="noopener noreferrer"&gt;Thomas Depian&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Simon+D.+Fink" rel="noopener noreferrer"&gt;Simon D. Fink&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Alexander+Firbas" rel="noopener noreferrer"&gt;Alexander Firbas&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Robert+Ganian" rel="noopener noreferrer"&gt;Robert Ganian&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Martin+N%C3%B6llenburg" rel="noopener noreferrer"&gt;Martin Nöllenburg&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Marie+Diana+Sieper" rel="noopener noreferrer"&gt;Marie Diana Sieper&lt;/a&gt;&lt;/p&gt;In this paper, we study the Pattern Avoidance problem of determining whether a given graph $G$ admits a linear vertex order which avoids a given pattern $P$, i.e., a vertex sequence with some forced and forbidden edges, on every suborder. Such patterns form a natural ordered counterpart to induced subgraphs in the order-invariant setting, and it is known that Pattern Avoidance captures a broad variety of graph problems including Bandwidth, Vertex Coloring, Queue Number, and extends to vertex-deletion problems such as Odd Cycle Transversal. We show that Pattern Avoidance is $Σ_2^{\textsf{P}}$-complete and furthermore remains intractable (in both the classical and parameterized sense) even under a variety of severe restrictions to both the pattern $P$ and the graph $G$. As our main contributions, we complement these lower bounds with the following tractability results, which provide a unifying framework for recognizing pattern-definable graph classes:
-  - a fixed-parameter algorithm w.r.t. the vertex integrity of $G$ plus $|V(P)|$,
-  - a fixed-parameter algorithm w.r.t. the neighborhood diversity of $G$ plus $|E(P)|$, and
-  - a polynomial algorithm for Pattern Avoidance on forests for almost all constant-sized patterns.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2608.30667v1</guid>
-    </item>
+    <lastBuildDate>Thu, 03 Sep 2026 16:27:54 +0000</lastBuildDate>
     <item>
       <title>Sensitivity Oracles for Matroid Packing, Matroid Covering, and Matching Problems with Applications</title>
       <link>https://arxiv.org/abs/2609.01283v1</link>
