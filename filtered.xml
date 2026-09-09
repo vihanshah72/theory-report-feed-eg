@@ -7,15 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 14:38:04 +0000</lastBuildDate>
-    <item>
-      <title>Maximum Matching-Match: Hardness and Approximation</title>
-      <link>https://arxiv.org/abs/2609.07193v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: max-cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Ilie+Dumitru" rel="noopener noreferrer"&gt;Ilie Dumitru&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Adrian+Micl%C4%83u%C5%9F" rel="noopener noreferrer"&gt;Adrian Miclăuş&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Alexandru+Popa" rel="noopener noreferrer"&gt;Alexandru Popa&lt;/a&gt;&lt;/p&gt;In this paper, we study \textsc{MaxMMP}, an optimization variant of the Matching-Match Puzzle introduced by Iburi and Uehara (FUN 2024). Given a graph, a partial vertex coloring, and a multiset of colored sticks, the goal is to complete the coloring and assign the sticks to graph edges so as to maximize the number of satisfied edges.
-  We first prove that \textsc{MaxMMP} is APX-hard by an reduction from \textsc{Max-Cut}. The hardness already holds with two colors, no precolored vertices, and only bichromatic sticks. We then give a simple deterministic $\frac{2}{c(c+1)}$-approximation for completely uncolored instances, improving to $\frac{2}{c(c-1)}$ when all sticks are bichromatic.
-  Next, we obtain a randomized $\frac{1-\frac{1}{e}}{2c}$-approximation for arbitrary instances with $c$ colors by reducing the remaining coloring choices to monotone submodular maximization under a partition matroid. On bipartite graphs, the approximation ratio improves to $\frac{1-\frac{1}{e}}{c}$. For every fixed $c$, we further obtain deterministic $\frac{1}{2c}$ and $\frac{1}{c}$-approximations on general and bipartite graphs, respectively, in time $n^{O(c^2)}$. Finally, for every fixed number of colors, we show that \textsc{MaxMMP} can be solved exactly in time $n^{O(c^2)}$ on trees and on cographs.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.07193v1</guid>
-    </item>
+    <lastBuildDate>Wed, 09 Sep 2026 18:39:02 +0000</lastBuildDate>
     <item>
       <title>Polynomial Lower Bounds for Distributed Graph Sketching with Tiny Error: Connectivity and Spanning Tree Construction</title>
       <link>https://arxiv.org/abs/2609.05795v1</link>
