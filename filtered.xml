@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 11:56:41 +0000</lastBuildDate>
-    <item>
-      <title>Testing the Binary Rank with Polynomial Query Complexity</title>
-      <link>https://arxiv.org/abs/2609.10496v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Michal+Parnas" rel="noopener noreferrer"&gt;Michal Parnas&lt;/a&gt;&lt;/p&gt;We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$.
-  Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.10496v1</guid>
-    </item>
+    <lastBuildDate>Sun, 13 Sep 2026 16:19:54 +0000</lastBuildDate>
     <item>
       <title>Streaming Algorithms for Gaussian Kernel Density Statistics</title>
       <link>https://arxiv.org/abs/2609.09622v1</link>
@@ -49,6 +42,18 @@
       <link>https://arxiv.org/abs/2609.11207v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Rahul+Vaze" rel="noopener noreferrer"&gt;Rahul Vaze&lt;/a&gt;&lt;/p&gt;Convex Optimization with Nested Evolving Feasible Sets (CONES)} was introduced in \cite{CONESVaze} where the objective function \(f\) remains fixed but the feasible region evolves over time as a nested sequence \(S_1 \supseteq S_2 \supseteq \cdots \supseteq S_T\). The goal of an online algorithm is to simultaneously minimize the regret with respect to hindsight static optimal benchmark and the total movement cost $M_\cA(T)$ while ensuring feasibility at all times. CONES is an optimization-oriented generalization of the well-known \emph{nested convex body chasing} (NCBC). In this paper, we extend CONES to allow for loss functions $f_t'$s to also change over time. When all loss functions are convex, we show that the projected proximal algorithm achieves $O(T^{1-β}), O(T^β)$ simultaneous regret and movement cost, respectively, for any $β\in [0,1)$, over a time horizon of $T$. We also show that any {\it weakly adaptive} online algorithm with $O(T^β)$ regret has a movement cost of $Ω\left(T^{\frac{1-β}{2}}\right)$ for any $β\in [0,1)$. When all loss functions are strongly convex, we show that the projected proximal algorithm simultaneously achieves $O(1)$ regret and a movement cost of $O(\log T)$. To complement this, we show that any online algorithm with sublinear {\it anytime} regret has a movement cost of $Ω\left(\log T\right)$.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2609.11207v1</guid>
+    </item>
+    <item>
+      <title>TR26-175 |  QMA Lower Bounds for Batch Verification via Approximate Degree | 
+
+	Mandar Juvekar, 
+
+	Samuel King, 
+
+	Mark Bun</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/175</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;We study batch verification in QMA query and communication complexity, where the goal is to understand how the resources needed to verify $m$ copies of a Boolean function $f$ depend on $m$. We give a general technique for proving lower bounds on the witness-query tradeoff needed to batch verify a function $f$ in terms of its approximate degree. Applying this technique to an explicit family of DNF formulas $f$, we show that attempting to save even a constant factor on the witness length of the baseline approach to batch verifying $f$ necessitates a large polynomial increase in the query cost. We also obtain new lower bounds on the QMA query complexity of read-once CNF formulas and on the surjectivity and $k$-element distinctness functions. Our lower bounds also lift to give communication analogs of these results.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/175</guid>
     </item>
   </channel>
 </rss>
