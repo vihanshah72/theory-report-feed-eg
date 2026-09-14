@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 14:06:29 +0000</lastBuildDate>
-    <item>
-      <title>Streaming Algorithms for Gaussian Kernel Density Statistics</title>
-      <link>https://arxiv.org/abs/2609.09622v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Qin+Zhang" rel="noopener noreferrer"&gt;Qin Zhang&lt;/a&gt;&lt;/p&gt;Motivated by data produced by generative systems, \cite{LZ26b} formulates similarity-aware statistics via a weighted similarity graph, replacing equality with similarity in classical frequency-based statistics. Although this framework captures semantic relationships between nonidentical items, under general similarity functions even coarse one-pass approximation can require linear space. We therefore ask whether the geometric structure present in natural vector similarities can overcome this barrier. We answer this question affirmatively for the Gaussian kernel. For fixed-dimensional Euclidean vector streams, we study similarity-aware analogues of classical frequency statistics, including the number of distinct elements and frequency moments, through the diversity index and Gaussian density moments. We give one-pass sublinear-space approximation algorithms that exploit the geometric and analytic properties of the Gaussian kernel, and complement them with lower bounds. Our results show that geometric structure can fundamentally change the streaming complexity of similarity-aware statistical analysis.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.09622v1</guid>
-    </item>
+    <lastBuildDate>Mon, 14 Sep 2026 19:23:41 +0000</lastBuildDate>
     <item>
       <title>Introvert Clustering for Distributed Graph Algorithms</title>
       <link>https://arxiv.org/abs/2609.10044v1</link>
