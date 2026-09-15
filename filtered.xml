@@ -7,27 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 13:35:45 +0000</lastBuildDate>
-    <item>
-      <title>Lower Bounds for Private Graph Optimization Problems using Reconstruction Attacks</title>
-      <link>https://arxiv.org/abs/2609.10877v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: minimum cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Jacob+Imola" rel="noopener noreferrer"&gt;Jacob Imola&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Rasmus+Pagh" rel="noopener noreferrer"&gt;Rasmus Pagh&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Lukas+Retschmeier" rel="noopener noreferrer"&gt;Lukas Retschmeier&lt;/a&gt;&lt;/p&gt;This paper studies fundamental graph optimization problems under differential privacy (DP) and shows new, reconstruction-based lower bounds. We consider a graph $G = (V, E, \vec{w})$ where the vertex set $V$ and edges $E$ are public and the weights $\mathbf{w}:E\rightarrow \mathbb{R}$ must be kept differentially private under an $\ell_1$ neighboring relation.
-  For the problems of releasing a minimum-weight spanning tree and a minimum-weight perfect matching, we show new, tight error bounds of $Ω(n\cdot\log(m/n)/ε)$ on worst-case graphs with $n$ vertices and $m&amp;gt;2n$ edges. The upper bounds are known pure DP algorithms while the new lower bound holds even under approximate $(\varepsilon,δ)$-DP as long as $δ\leq (n/m)^{Ω(1)}$. Our lower bounds improve the $Ω(n/ε)$ lower bounds of Sealfon (PODS~'16). The fact that approximate DP does not reduce error for MST under the $\ell_1$ neighboring relation contrasts with the recent upper bound of Pagh et al. (PODS~'25) which shows that approximate DP allows much better error under the $\ell_\infty$ neighboring relation.
-  Going beyond worst-case graphs, we give lower bounds for large families of sparse graphs with expansion properties. We show a lower bound of $Ω(n / ε)$ for the minimum spanning tree for any graph where the minimum cut is at least $Ω(\log(n))$. Finally, we consider the problem of private hierarchical clustering under Dasgupta's cost function (STOC~'16) and show the first approximate DP lower bound parameterized by the minimum weight of a balanced cut. This extends lower bounds of Deng et al. (ICLR~'25) to general graphs and to approximate DP.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.10877v1</guid>
-    </item>
-    <item>
-      <title>Single-Exponential Algorithms and a Polynomial Kernel for Strong Connectivity Augmentation</title>
-      <link>https://arxiv.org/abs/2609.11160v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tomohiro+Koana" rel="noopener noreferrer"&gt;Tomohiro Koana&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Soh+Kumabe" rel="noopener noreferrer"&gt;Soh Kumabe&lt;/a&gt;&lt;/p&gt;Strong Connectivity Augmentation (SCA) asks whether a directed acyclic graph can be made strongly connected by adding at most $k$ prescribed links whose total weight is within a given budget. Klinkby, Misra, and Saurabh (SODA 2021) gave an $O^*(2^{O(k\log k)})$-time algorithm and asked whether the problem admits a single-exponential parameterized algorithm and a polynomial kernel. We answer both questions affirmatively: SCA can be solved in $O^*(9^k)$ time and admits a polynomial kernel with $O(k^4)$ vertices and $O(k^{16})$ bits. For unweighted SCA, we obtain $O^*(4^k)$ time and a kernel with $O(k^3)$ vertices. Our algorithms are based on a particularly simple reduction to Strongly Connected Spanning Subgraph with two edge costs.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.11160v1</guid>
-    </item>
-    <item>
-      <title>Convex Optimization with Nested Evolving Feasible Sets (CONES) under Time-Varying Loss Functions</title>
-      <link>https://arxiv.org/abs/2609.11207v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Rahul+Vaze" rel="noopener noreferrer"&gt;Rahul Vaze&lt;/a&gt;&lt;/p&gt;Convex Optimization with Nested Evolving Feasible Sets (CONES)} was introduced in \cite{CONESVaze} where the objective function \(f\) remains fixed but the feasible region evolves over time as a nested sequence \(S_1 \supseteq S_2 \supseteq \cdots \supseteq S_T\). The goal of an online algorithm is to simultaneously minimize the regret with respect to hindsight static optimal benchmark and the total movement cost $M_\cA(T)$ while ensuring feasibility at all times. CONES is an optimization-oriented generalization of the well-known \emph{nested convex body chasing} (NCBC). In this paper, we extend CONES to allow for loss functions $f_t'$s to also change over time. When all loss functions are convex, we show that the projected proximal algorithm achieves $O(T^{1-β}), O(T^β)$ simultaneous regret and movement cost, respectively, for any $β\in [0,1)$, over a time horizon of $T$. We also show that any {\it weakly adaptive} online algorithm with $O(T^β)$ regret has a movement cost of $Ω\left(T^{\frac{1-β}{2}}\right)$ for any $β\in [0,1)$. When all loss functions are strongly convex, we show that the projected proximal algorithm simultaneously achieves $O(1)$ regret and a movement cost of $O(\log T)$. To complement this, we show that any online algorithm with sublinear {\it anytime} regret has a movement cost of $Ω\left(\log T\right)$.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.11207v1</guid>
-    </item>
+    <lastBuildDate>Tue, 15 Sep 2026 18:13:42 +0000</lastBuildDate>
     <item>
       <title>TR26-175 |  QMA Lower Bounds for Batch Verification via Approximate Degree | 
 
@@ -74,6 +54,26 @@
 
 &lt;p&gt;(&lt;a href="https://mathstodon.xyz/@11011110/117272184900044101" rel="noopener noreferrer"&gt;Discuss on Mastodon&lt;/a&gt;)&lt;/p&gt;&lt;p class="authors"&gt;By David Eppstein&lt;/p&gt;</description>
       <guid isPermaLink="false">https://11011110.github.io/blog/2026/09/14/periodic-coloring-infinite</guid>
+    </item>
+    <item>
+      <title>Flip Graphs for Eight Points in Three Dimensions Are Connected</title>
+      <link>https://arxiv.org/abs/2609.14797v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Marc+Khoury" rel="noopener noreferrer"&gt;Marc Khoury&lt;/a&gt;&lt;/p&gt;We prove that every configuration of four through eight points in three-dimensional space, with no four points coplanar, has a connected full geometric flip graph under $2 \leftrightarrow 3$ flips. Every point remains fixed and present throughout the sequence. The proof brings each tetrahedralization into placing form at a convex hull vertex: the tetrahedra not incident to that vertex fill the convex hull of the remaining points. This reduction allows us to establish connectivity by induction, using the connectivity of regular tetrahedralizations. The main geometric tool is radial projection, which turns the tetrahedra incident to a hull vertex into a planar triangulation. When this planar triangulation is regular, varying its lifting heights produces legal spatial flips that progressively shrink the region occupied by the incident tetrahedra and reach placing form. Planar lifting criteria and compatibility constraints between the projections at different hull vertices resolve the remaining small cases. For eight points, at most 35 flips are needed to reach placing form.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.14797v1</guid>
+    </item>
+    <item>
+      <title>TR26-180 |  A Resolution of Friedgut's Conjecture on Influential Coalitions | 
+
+	Eshan Chattopadhyay, 
+
+	Mohit Gurumukhani</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/180</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;We prove that, for every constant $\varepsilon&amp;gt;0$ and every function $f:\Sigma^n\to\{0, 1\}$, there is a coalition of $O(n/\sqrt{\log n})$ coordinates and a target output $b\in\{0, 1\}$ such that, after the remaining coordinates are sampled uniformly and independently, the coalition can choose its values to make the output equal to $b$ with probability at least $1-\varepsilon$. The bound is independent of the alphabet size and also holds for monotone Boolean functions on $[0,1]^n$, resolving a conjecture of Friedgut (Combinatorics, Probability and Computing, 2004). Unlike the Boolean cube setting, where Kahn, Kalai, and Linial (FOCS, 1988) give a coalition bound of $O(n/\log n)$, no sublinear bound independent of the alphabet size was previously known.
+
+In collective coin flipping, our result gives the first sublinear bound on the number of bad players needed to force a fixed output with probability at least $1-\varepsilon$ in any one-round protocol with independent uniform messages, regardless of the message length.
+
+A key ingredient in our proof is an encoding that lets us relate the influence of a function on a product space to the $p$-biased influence of the encoded function. We then rely on a structure theorem of Hatami (Annals of Mathematics, 2012) for functions with small $p$-biased influence to bias the encoded function.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/180</guid>
     </item>
   </channel>
 </rss>
