@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 20:09:57 +0000</lastBuildDate>
-    <item>
-      <title>Flip Graphs for Eight Points in Three Dimensions Are Connected</title>
-      <link>https://arxiv.org/abs/2609.14797v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Marc+Khoury" rel="noopener noreferrer"&gt;Marc Khoury&lt;/a&gt;&lt;/p&gt;We prove that every configuration of four through eight points in three-dimensional space, with no four points coplanar, has a connected full geometric flip graph under $2 \leftrightarrow 3$ flips. Every point remains fixed and present throughout the sequence. The proof brings each tetrahedralization into placing form at a convex hull vertex: the tetrahedra not incident to that vertex fill the convex hull of the remaining points. This reduction allows us to establish connectivity by induction, using the connectivity of regular tetrahedralizations. The main geometric tool is radial projection, which turns the tetrahedra incident to a hull vertex into a planar triangulation. When this planar triangulation is regular, varying its lifting heights produces legal spatial flips that progressively shrink the region occupied by the incident tetrahedra and reach placing form. Planar lifting criteria and compatibility constraints between the projections at different hull vertices resolve the remaining small cases. For eight points, at most 35 flips are needed to reach placing form.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.14797v1</guid>
-    </item>
+    <lastBuildDate>Wed, 16 Sep 2026 22:58:01 +0000</lastBuildDate>
     <item>
       <title>TR26-180 |  A Resolution of Friedgut's Conjecture on Influential Coalitions | 
 
