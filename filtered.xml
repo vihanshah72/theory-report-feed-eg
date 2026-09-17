@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 13:30:27 +0000</lastBuildDate>
-    <item>
-      <title>On testing the incentive compatibility of single-parameter allocation mechanisms</title>
-      <link>https://arxiv.org/abs/2609.17406v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Jason+Milionis" rel="noopener noreferrer"&gt;Jason Milionis&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=William+Pires" rel="noopener noreferrer"&gt;William Pires&lt;/a&gt;&lt;/p&gt;This paper is the first work at the intersection of game theory and property testing, giving algorithms and lower bounds for efficiently testing whether an allocation mechanism is incentive compatible (IC). We propose distinguishing whether a mechanism is $ε$-far from being IC, i.e., when it observes many monotonicity "violations." Conceptually, inspired by the literature on Boolean function monotonicity testing, we construct a tester for discrete single-parameter allocation rules. Technically, our work is the first to consider monotonicity testing of vector-valued functions on the hypergrid. We give a $\tilde{O}(n/ε)$-query algorithm to test whether a function (representing n-player allocation mechanisms) is coordinate-wise monotone versus $ε$-far from it. We also show a matching lower bound: the class of coordinate-wise monotone vector-valued functions on a Boolean hypercube or hypergrid requires $\tildeΩ(n/ε)$ queries to test whether it is $ε$-far from monotonicity, and this holds even if the tester is two-sided and allowed to make adaptive queries. Finally, we extend our upper bound to and give a tester of the same query complexity for pricing functions of allocation mechanisms. This requires overcoming the technical challenge that the path in function space to the closest IC mechanism may involve interdependent changes to both the price and the allocation rule.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.17406v1</guid>
-    </item>
-    <item>
-      <title>A Resolution of Friedgut's Conjecture on Influential Coalitions</title>
-      <link>https://arxiv.org/abs/2609.16401v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Eshan+Chattopadhyay" rel="noopener noreferrer"&gt;Eshan Chattopadhyay&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Mohit+Gurumukhani" rel="noopener noreferrer"&gt;Mohit Gurumukhani&lt;/a&gt;&lt;/p&gt;We prove that, for every constant $\varepsilon&amp;gt;0$ and every function $f:Σ^n\to\{0, 1\}$, there is a coalition of $O(n/\sqrt{\log n})$ coordinates and a target output $b\in\{0, 1\}$ such that, after the remaining coordinates are sampled uniformly and independently, the coalition can choose its values to make the output equal to $b$ with probability at least $1-\varepsilon$. The bound is independent of the alphabet size and also holds for monotone Boolean functions on $[0,1]^n$, resolving a conjecture of Friedgut (Combinatorics, Probability and Computing, 2004). Unlike the Boolean cube setting, where Kahn, Kalai, and Linial (FOCS, 1988) give a coalition bound of $O(n/\log n)$, no sublinear bound independent of the alphabet size was previously known.
-  In collective coin flipping, our result gives the first sublinear bound on the number of bad players needed to force a fixed output with probability at least $1-\varepsilon$ in any one-round protocol with independent uniform messages, regardless of the message length.
-  A key ingredient in our proof is an encoding that lets us relate the influence of a function on a product space to the $p$-biased influence of the encoded function. We then rely on a structure theorem of Hatami (Annals of Mathematics, 2012) for functions with small $p$-biased influence to bias the encoded function.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.16401v1</guid>
-    </item>
+    <lastBuildDate>Thu, 17 Sep 2026 18:16:19 +0000</lastBuildDate>
     <item>
       <title>Subquadratic-Query Algorithms for Finding Another Maximum Matroid Intersection</title>
       <link>https://arxiv.org/abs/2609.18199v1</link>
