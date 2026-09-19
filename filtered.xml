@@ -7,15 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 22:35:56 +0000</lastBuildDate>
-    <item>
-      <title>An Operator Approach to Register Programs for Catalytic Computing</title>
-      <link>https://arxiv.org/abs/2609.18692v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Antoine+Vinciguerra" rel="noopener noreferrer"&gt;Antoine Vinciguerra&lt;/a&gt;&lt;/p&gt;In a seminal work, Buhrman et al.\ (STOC 2014) introduced catalytic computation and proved that uniform $TC^1$ circuits are computable in catalytic logspace, the class of problems solvable in space $s$ with an additional catalytic tape of size $c$, a tape whose initial content must be restored at the end of the computation. A central ingredient of their proof is the register program model. Namely, they constructed a uniform family of register programs that computes $x^n$ using $n$ registers and four accesses to $x$. Since then, determining the number of registers and input accesses required to compute a polynomial of a given degree has become a central question in the study of catalytic computation.
-  On one hand, we prove that the four-access bound of Buhrman et al.\ is optimal: every passive-output register program computing a polynomial of degree greater than three requires at least four input accesses, independently of the number of registers. On the other hand, we show that their register bound is not optimal. For every $t\geq2$ and every field $K$ of characteristic $0$ or greater than $2t-1$, we construct a register program for $x^{2t-1}$ with four input accesses and $t$ registers. Our proofs rely on derivations and their exponential operators. This approach represents a register program as a series of exponential derivation operators, reducing register restoration to an operator identity. Finally, we use the uniform family of register programs to improve known trade-offs for catalytic streaming algorithms and register programs for matrix powering.
-  The generalization of the lower-bound methods and the construction of the uniform family of register programs were developed with assistance from ChatGPT 5.6.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.18692v1</guid>
-    </item>
+    <lastBuildDate>Sat, 19 Sep 2026 01:12:22 +0000</lastBuildDate>
     <item>
       <title>Universal set families for maximization of nonnegative submodular and XOS functions</title>
       <link>https://arxiv.org/abs/2609.19528v1</link>
