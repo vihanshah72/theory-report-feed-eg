@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 06:23:53 +0000</lastBuildDate>
-    <item>
-      <title>Counting Triangles in Graph Streams with Repeatable and Forgettable Edges</title>
-      <link>https://arxiv.org/abs/2609.19943v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Sourav+Chakraborty" rel="noopener noreferrer"&gt;Sourav Chakraborty&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Debarshi+Chanda" rel="noopener noreferrer"&gt;Debarshi Chanda&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Arijit+Ghosh" rel="noopener noreferrer"&gt;Arijit Ghosh&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=A.+Pavan" rel="noopener noreferrer"&gt;A. Pavan&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Chhaya+Trehan" rel="noopener noreferrer"&gt;Chhaya Trehan&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=N.+V.+Vinodchandran" rel="noopener noreferrer"&gt;N. V. Vinodchandran&lt;/a&gt;&lt;/p&gt;Most existing graph streaming algorithms assume the ideal scenario where each edge arrives only once. Real-world graph streams, such as communication or transaction logs, often contain many repeated occurrences of the same edge. In general, the algorithms developed for the single-edge arrival case can fail when edges can arrive multiple times. Motivated by this, we study the {\em repeated-edge arrival graph streaming model} where an edge is allowed to arrive multiple times.
-  In this work, we study the triangle counting problem in the repeated-edge arrival model: approximate the number of triangles in the underlying {\em simple graph} despite arbitrary edge repetitions. We design the first algorithms for triangle counting with optimal space complexity. In particular, we present a single-pass algorithm that computes an $(\varepsilon,δ)$-approximation of the number of triangles with optimal space complexity. We introduce {\em right-to-be-forgotten graph streaming} (RFGS) model, where a forget operation can cause all previous occurrences of an edge to disappear. We show that our single-pass algorithm can be extended to the RFGS model with optimal space complexity. Finally, we present optimal constant-pass algorithms that compute an $(\varepsilon,δ)$-approximation of the number of triangles and cliques for the repeated-edge arrival graph streams.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.19943v1</guid>
-    </item>
+    <lastBuildDate>Mon, 21 Sep 2026 14:12:46 +0000</lastBuildDate>
     <item>
       <title>TR26-193 |  Algebraic Complexity Approach to Sign-Rank | 
 
