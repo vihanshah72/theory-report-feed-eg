@@ -7,15 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 01:08:40 +0000</lastBuildDate>
-    <item>
-      <title>Universal set families for maximization of nonnegative submodular and XOS functions</title>
-      <link>https://arxiv.org/abs/2609.19528v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Chandra+Chekuri" rel="noopener noreferrer"&gt;Chandra Chekuri&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Richard+Ueltzen" rel="noopener noreferrer"&gt;Richard Ueltzen&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jan+Vondrak" rel="noopener noreferrer"&gt;Jan Vondrak&lt;/a&gt;&lt;/p&gt;We consider the question of designing a universal family of sets $F \subset 2^{[n]}$ such that for any function $f:2^{[n]} \to R_{\geq 0}$ in a certain class, we have $$\max_{S \in F} f(S) \geq c(n) \cdot \max_{S \subset [n]} f(S).$$
-  We prove that there is a family of subpolynomial size such that for any nonnegative submodular function, $c(n) = Ω(\frac{\log \log n}{\log n})$, and there is a family of logarithmic size such that $c(n) = Ω(\frac{1}{\log n})$. We also prove that pairwise independence (which achieves a constant factor for graph cut functions), or even $k$-wise independence, does not imply a bound better than $O(\frac{1}{\sqrt{\log n}})$ for submodular functions. On the other hand, we prove that for any polynomially representable subclass of nonnegative submodular functions (such as the matroid connectivity functions for matroid representable over $F_q$), a constant-factor universal family of polynomial size always exists.
-  For absolute XOS functions (a class that we introduce, in the form $f(S) = \max_i |\sum_{j \in S} w_{ij} + c_i|$ where $w_{ij}, c_i \in R$), we design a family of polynomial size such that $c(n) \geq \sqrt{\frac{\log n}{n}}$, and prove that there is no polynomial-size family achieving a factor better than $O(\sqrt{\frac{\log n}{n}})$.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.19528v1</guid>
-    </item>
+    <lastBuildDate>Mon, 21 Sep 2026 06:23:53 +0000</lastBuildDate>
     <item>
       <title>Counting Triangles in Graph Streams with Repeatable and Forgettable Edges</title>
       <link>https://arxiv.org/abs/2609.19943v1</link>
