@@ -7,165 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 05:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 09:59:30 +0000</lastBuildDate>
     <item>
-      <title>TR26-193 |  Algebraic Complexity Approach to Sign-Rank | 
-
-	Mika Göös, 
-
-	Kaave Hosseini, 
-
-	Valentin Imbach, 
-
-	Anastasia Sofronova</title>
-      <link>https://eccc.weizmann.ac.il/report/2026/193</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: linear sketch&lt;/p&gt;An outstanding open problem asks if there exists a boolean matrix with unbounded sign-rank, but bounded randomised communication complexity. We make progress towards this question by proving lower bounds against real linear sketches (a model weaker than sign-rank): Alice and Bob send few linear measurements to a referee, who makes a decision based on the evaluation of a low-degree polynomial. Our proof uses the Combinatorial Nullstellensatz and the rank method from algebraic circuit complexity.</description>
-      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/193</guid>
+      <title>Single-Pass Estimation of the Clustering Coefficient Distribution in Graph Streams</title>
+      <link>https://arxiv.org/abs/2609.23489v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Cristian+Boldrin" rel="noopener noreferrer"&gt;Cristian Boldrin&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=C.+Seshadhri" rel="noopener noreferrer"&gt;C. Seshadhri&lt;/a&gt;&lt;/p&gt;Triangle counting is one of the most fundamental problems in network analysis. Given the massive sizes of real-world graphs, there is a long history of small-space streaming algorithms providing accurate estimates for this problem. However, most of the results focus on estimating the total triangle count or the number of triangles incident to individual nodes. In practice, one often wants fine-grained information to understand how triangles are distributed, as captured by clustering coefficients. In particular, a standard network analysis task requires computing the binned degree-wise clustering coefficient distribution, which provides a rich and informative summary of the structure of the graph.
+  In this work we present BOLIDE, the first efficient and practical algorithm for estimating binned degree-wise clustering coefficients in streaming. Our algorithm makes a single pass over the edge stream, and is allowed to store only a small fraction of the total number of edges. BOLIDE carefully combines different sampling strategies to efficiently gather degree and triangle information across sets of nodes. As a result, our algorithm provably approximates the binned degree-wise clustering coefficients, and provides guarantees on the amount of memory used. Our experimental evaluation shows that BOLIDE accurately estimates clustering coefficient distributions while efficiently processing large datasets with billions of edges and triangles.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.23489v1</guid>
     </item>
     <item>
-      <title>TR26-195 |  Sumset Structure in Local Computation | 
-
-	Alexander Golovnev, 
-
-	Mohit Gurumukhani</title>
-      <link>https://eccc.weizmann.ac.il/report/2026/195</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: local computation&lt;/p&gt;We introduce and study a new model of decision trees that lies at the frontier of provable circuit lower bounds.
-
-We study $\ell$-local decision trees, in which each internal node queries an $\ell$-local function of the input. We show that sufficiently strong lower bounds for $\ell$-local decision trees would imply several breakthrough circuit lower bounds, including super-linear size lower bounds for log-depth circuits and improved bounds for unrestricted-depth circuits. Previously, such consequences were known to follow from strong lower bounds for depth-$3$ circuits, which has been the main prior approach in attempting to prove these results. Since local decision trees are strictly weaker than depth-$3$ circuits, this provides a formally easier route to the same circuit lower-bound consequences.
-
-We prove essentially optimal lower bounds for a weaker variant that we call oblivious $\ell$-local decision trees, where all nodes at the same depth query the same function. Our lower bounds follow from a new technique that uncovers sumset structure in local maps, and our hard functions are sumset dispersers, sumset condensers, and directional affine dispersers. Along the way, we give an explicit construction of a sumset condenser with small entropy loss.
-
-As an additional contribution, we initiate the study of degree-$2$ decision trees, in which each query is a quadratic polynomial of the input. We show that proving lower bounds in this model is a natural stepping stone toward constructing dispersers for degree-$2$ variety sources, which imply improved circuit lower bounds for unrestricted depth circuits. We prove nearly maximal lower bounds for the oblivious variant of the model.</description>
-      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/195</guid>
+      <title>Clique-dependent strongly sublinear treewidth and strongly sublinear tree-independence number</title>
+      <link>https://arxiv.org/abs/2609.24684v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Andrea+Munaro" rel="noopener noreferrer"&gt;Andrea Munaro&lt;/a&gt;&lt;/p&gt;We establish a strongly sublinear counterpart of a recent result of Chudnovsky, E S, and Lokshtanov (arXiv 2025) on treewidth and tree-independence number. Namely, we prove that a hereditary graph class has strongly sublinear tree-independence number if and only if, for every fixed clique bound, its graphs of bounded clique number have strongly sublinear treewidth. In fact, this is part of a broader equivalence theorem. For hereditary classes, these conditions are also equivalent to having clique-dependent polynomial expansion, to admitting balanced separators whose size is bounded by $Kω(G)^s |V(G)|^{1-β}$ for fixed $K,s,β&amp;gt;0$, and to admitting balanced clique-based separators of strongly sublinear size (equivalently, weight). Thus, we show that all these properties, which arose independently in the study of subexponential-time exact algorithms and polynomial-time approximation schemes, in fact describe the same hereditary graph classes. As a consequence of our equivalence theorem, we also show that every hereditary class $\mathcal C$ with strongly sublinear tree-independence number admits a subexponential-time algorithm that, given $G\in\mathcal C$, computes a tree decomposition of $G$ with strongly sublinear independence number.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.24684v1</guid>
     </item>
     <item>
-      <title>Theory Beyond Theorems and Proofs: A Guest Post</title>
-      <link>https://scottaaronson.blog/?p=10116</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Scott’s foreword:&lt;/strong&gt; I’m extremely grateful to my brilliant colleagues, &lt;a href="https://www.cs.princeton.edu/~kothari/" rel="noopener noreferrer"&gt;Pravesh Kothari&lt;/a&gt;, &lt;a href="https://samueli.ucla.edu/people/raghu-meka/" rel="noopener noreferrer"&gt;Raghu Meka&lt;/a&gt;, and &lt;a href="https://people.eecs.berkeley.edu/~prasad/" rel="noopener noreferrer"&gt;Prasad Raghavendra&lt;/a&gt;, for sharing the guest post below about how theoretical computer science (and in particlar, the STOC/FOCS/SODA conferences) should evolve to deal with the AI asteroid that’s right now slamming into our field, at least as we human theorists have practiced it since its inception.  While Pravesh, Raghu, and Prasad speak only for themselves, not for myself and not for the theory community as a whole, I found their proposal of a separate “conceptual track” to be an excellent starting point for further discussion. –SA&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;p&gt;Considering the pace of developments in AI theorem provers, most would concede that the following scenario is at least plausible in the very near future:&lt;/p&gt;
-
-
-
-&lt;p&gt;AI theorem provers could prove well-specified mathematical claims, even many well-studied ones that have been open for years, in a matter of hours. Moreover, these systems could be widely available to consumers at nominal cost.&lt;/p&gt;
-
-
-
-&lt;p&gt;As TCS researchers, let us pretend that the above scenario has come to the fore, and ask ourselves: What is our role in such a world? Does it mean the end of theory research?&lt;/p&gt;
-
-
-
-&lt;p&gt;As we ponder this question, let us ignore all of these other confounders:&lt;/p&gt;
-
-
-
-&lt;ol&gt;
-&lt;li&gt;Recent controversies surrounding the developments on the Millennium Prize Problems&lt;/li&gt;
-
-
-
-&lt;li&gt;Motivations and actions of the AI companies&lt;/li&gt;
-
-
-
-&lt;li&gt;Observed faults in existing AI systems when it comes to writing, exposition or attribution to previous work.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-
-&lt;p&gt;None of the above confounders have any impact on our answer to the question: What should theorists do, in the presence of superhuman AI theorem provers?&lt;/p&gt;
-
-
-
-&lt;p&gt;Notice that we use the term “AI theorem provers” instead of just “AI”. We believe that this conceptual distinction is important as we consider this question.&lt;/p&gt;
-
-
-
-&lt;p&gt;At the outset, we would like to admit that for a generation of theorists like us (and many from earlier), research was mainly centered around problem-solving. Even when we developed conceptual insights, it was mostly in service of answering well-specified long-standing questions. We don’t intend this proposal as judging one form of research to be better than others; it only reflects that AI theorem provers accelerate a certain type of research activity and want to make the best of it. There is also a tremendous human cost of this upheaval, which is perhaps a more important question, and one which this proposal does not address directly (we do not have any good ideas as such). Similar points have also been made in various contexts&lt;br /&gt;before, but the timing now is more pressing.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;em&gt;Definitions, Questions &amp;amp; Theories:&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;The goal of any theoretical science is to advance human understanding of observed phenomena. Apart from theorems and proofs, a theoretical science has definitions, questions, and theories.&lt;/p&gt;
-
-
-
-&lt;p&gt;Definitions identify the objects to observe. Curiosity and context drive the questions to ask. Theories explain the phenomena observed. We believe humans will continue to play a central role in generating definitions, questions &amp;amp; theories, even in the presence of a super-human AI theorem prover.&lt;/p&gt;
-
-
-
-&lt;p&gt;Definitions: Could an AI define randomness extractors, streaming algorithms, or zero-knowledge proofs? Maybe. But there are some reasons to believe, humans will still have a big role to play in coming up with definitions.&lt;/p&gt;
-
-
-
-&lt;p&gt;For instance, the notion of extractors arises from the real-world problem of lacking perfect random sources. Zero-knowledge proofs seem to arise purely out of human curiosity, guided by taste. Human context and curiosity will continue to drive theoretical research. After all, we get to decide what objects we choose to observe!&lt;/p&gt;
-
-
-
-&lt;p&gt;Theories: Consider the following thought experiment. Suppose in 1965, we had a magic machine that at the press of a button, given any computational problem, would tell us if it had a polynomial-time algorithm or not.&lt;/p&gt;
-
-
-
-&lt;p&gt;Would that have been the end of computational complexity theory? No. Humans would find it entirely unsatisfactory, and ask, why do these problems not have a polynomial-time algorithm? Why do these others have?&lt;/p&gt;
-
-
-
-&lt;p&gt;The theory of NP-completeness identifies some patterns among problems that don’t seem to have efficient algorithms. This theory would still be a crown jewel of theoretical computer science, even in a world where we had a magic machine to tell if a problem had an efficient algorithm or not, at the press of a button. Similarly, if we had a machine to predict whether a CSP is NP-complete or in P, we would then ask: what makes 3-SAT NP-complete, while 2-SAT is in P? This question leads to the theory of polymorphisms, which yields a satisfactory answer.&lt;/p&gt;
-
-
-
-&lt;p&gt;Theories aren’t just succinct or efficient mechanisms to answer questions. The best theories provide are those which humans deem to be a “satisfactory explanation” – whatever that means.&lt;/p&gt;
-
-
-
-&lt;p&gt;Finally, even as the capabilities of AI theorem provers advance, human curiosity will probe grander and deeper questions. Previously, even if we wanted to build new models and theories, proving something about them was a prerequisite, and given that the grand questions were already at the limit in long-studied domains, we had to scale things down. If each theorem proven by AI is treated as an experimental datapoint, humans can ask grander questions that look for patterns across these theorems.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;em&gt;A concrete proposal:&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;We think theorists should embrace these AI theorem provers in our research. To a certain extent this is already happening explicitly or implicitly.&lt;/p&gt;
-
-
-
-&lt;p&gt;As theorists, we have been parsimonious in introducing new models or asking entirely new questions, and careful about adopting new ones too quickly. This was partly because formally proving the properties of a new definition or a model was an onerous task that could take a decade, and tens of papers. AI theorem provers might completely change this dynamic.  This is precisely the moment to refocus our work on definitions, questions, and theories. We need explicit systems to encourage and reinforce these parts of theoretical research. You might also say the next generation of AI models can do this; it may be so, but we believe you have to take the current opportunity.&lt;/p&gt;
-
-
-
-&lt;p&gt;To this end, we suggest that STOC/FOCS/SODA create a separate track of papers. This track is meant specifically for papers that introduce new definitions, ask novel questions or build explanatory theories. The papers in this track are short, say less than 10 pages. Papers may, and should, contain theorems as usual and as needed. Most importantly, the radical shift is that the papers need not contain the proofs of the theorems. Instead, the authors supply a Lean certificate as a supplement to the paper. The evaluation will also in a sense “orthogonalize’’ against the difficulty of these proofs.&lt;/p&gt;
-
-
-
-&lt;p&gt;The papers in this track should be judged exclusively on the conceptual merits, completely agnostic to the difficulty of the proofs.&lt;/p&gt;
-
-
-
-&lt;p&gt;Reviewing must be completely agnostic to the proof for two reasons. The main track at STOC/FOCS already includes papers in the former category. Second, a major barrier to producing truly novel conceptual papers is that they often get judged poorly for a lack of technical depth in their proofs. We think these two aspects separate it from (ITCS/SOSA) and, regardless, it’s something we urgently need for all our conferences, including STOC/FOCS (the ‘flagship’ conferences).&lt;/p&gt;
-
-
-
-&lt;p&gt;To be clear, we ourselves admit that we need to hone these skills of making new definitions, asking deep and interesting questions or building new theories. A separate track of conceptual papers will provide a systematic mechanism for both junior and senior researchers, and the field as a whole to do so.&lt;/p&gt;
-
-
-
-&lt;p&gt;We believe that upcoming generations of grad students will tackle research directions that seemed completely out of reach to us. We just need to set up systems that nurture new ways of doing research in theory.&lt;/p&gt;
-
-
-
-&lt;p&gt;— Pravesh Kothari, Raghu Meka, Prasad Raghavendra.&lt;/p&gt;
-&lt;p class="authors"&gt;By Scott&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://scottaaronson.blog/?p=10116</guid>
+      <title>Parameter-Free Triangle Counting</title>
+      <link>https://arxiv.org/abs/2609.24829v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Asaf+Etgar" rel="noopener noreferrer"&gt;Asaf Etgar&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Anna+Gilbert" rel="noopener noreferrer"&gt;Anna Gilbert&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Quanquan+Liu" rel="noopener noreferrer"&gt;Quanquan Liu&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Andrew+McGregor" rel="noopener noreferrer"&gt;Andrew McGregor&lt;/a&gt;&lt;/p&gt;Given an undirected, unweighted graph $G = (V,E)$ with $n$ vertices and $m$ edges, the triangle counting problem seeks the number of three-cycles in it. Triangle and subgraph counting are classical problems in graph algorithms, central to applications such as community detection, computing the clustering coefficient, motif discovery in protein networks, and social network analysis. In many of these applications, the graph datasets are so voluminous that we model them as streams of updates to an underlying graph.
+  There are a number of foundational results for streaming triangle counting, both theoretical and practical. There is, however, one major drawback to all previous sublinear-space algorithms: to achieve both a constant factor approximation and the sublinear space guarantees, one needs to know a priori a constant factor approximation of the triangle count $T$, an inherently circular requirement.
+  We initiate the study of parameter-free streaming triangle counting, without any a priori knowledge of $T$ or any quantities depending on $T$, provided $m$, the length of the stream. We describe a family of $O(p)$ pass parameter-free triangle counting algorithms that guarantee a mixed multiplicative and additive approximation of $T$ and use $\widetilde{O}(\frac{m+T}{\sqrt{T}})$ expected space. Moreover, this family leads to an $O(\log\log(n))$ pass algorithm that gives a $(1+\eps)$ multiplicative approximation of $T$ with the same space complexity. These algorithms rely on the notion of a \emph{verified} parametrized algorithm: an algorithm parametrized by $τ$ that either provides an approximation of $T$ when $τ\le T$, or declares that $T &amp;lt; τ$. Furthermore, we prove a lower bound: any parameter-free algorithm that provides a multiplicative approximation for all values of $T$ must use $Θ(m)$ space, even on streams where the triangle count is moderately large.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.24829v1</guid>
     </item>
     <item>
       <title>Moving Geometric Objects to Render Their Intersection Graph Connected or Locally Dense</title>
