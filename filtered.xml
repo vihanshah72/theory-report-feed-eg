@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 09:59:30 +0000</lastBuildDate>
-    <item>
-      <title>Single-Pass Estimation of the Clustering Coefficient Distribution in Graph Streams</title>
-      <link>https://arxiv.org/abs/2609.23489v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Cristian+Boldrin" rel="noopener noreferrer"&gt;Cristian Boldrin&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=C.+Seshadhri" rel="noopener noreferrer"&gt;C. Seshadhri&lt;/a&gt;&lt;/p&gt;Triangle counting is one of the most fundamental problems in network analysis. Given the massive sizes of real-world graphs, there is a long history of small-space streaming algorithms providing accurate estimates for this problem. However, most of the results focus on estimating the total triangle count or the number of triangles incident to individual nodes. In practice, one often wants fine-grained information to understand how triangles are distributed, as captured by clustering coefficients. In particular, a standard network analysis task requires computing the binned degree-wise clustering coefficient distribution, which provides a rich and informative summary of the structure of the graph.
-  In this work we present BOLIDE, the first efficient and practical algorithm for estimating binned degree-wise clustering coefficients in streaming. Our algorithm makes a single pass over the edge stream, and is allowed to store only a small fraction of the total number of edges. BOLIDE carefully combines different sampling strategies to efficiently gather degree and triangle information across sets of nodes. As a result, our algorithm provably approximates the binned degree-wise clustering coefficients, and provides guarantees on the amount of memory used. Our experimental evaluation shows that BOLIDE accurately estimates clustering coefficient distributions while efficiently processing large datasets with billions of edges and triangles.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.23489v1</guid>
-    </item>
+    <lastBuildDate>Tue, 22 Sep 2026 14:56:52 +0000</lastBuildDate>
     <item>
       <title>Clique-dependent strongly sublinear treewidth and strongly sublinear tree-independence number</title>
       <link>https://arxiv.org/abs/2609.24684v1</link>
