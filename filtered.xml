@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 19:12:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:26:41 +0000</lastBuildDate>
     <item>
       <title>Locally Sparsified, Globally Near-Optimal: Matching under Independent Vertex Arrivals</title>
       <link>https://arxiv.org/abs/2609.27161v1</link>
@@ -30,6 +30,39 @@
   In this work, we introduce a closely related estimator, given by \begin{align*}
   {\frac{1}{r}\|AΩ\|_F^2 + \frac{1}{r}\|Ψ^T A\|_F^2 - \frac{1}{r^2}\|Ψ^T AΩ\|_F^2}, \end{align*} where $Ψ$ is a second, independent random Gaussian matrix with $r$ columns. We prove that this estimator yields a $(1\pm\varepsilon)$ multiplicative approximation to $\|A\|_F^2$ when $r = O(1/\varepsilon)$, a quadratic improvement over Girard--Hutchinson. This dependence on $\varepsilon$ is optimal. Our method, which we call Hutch# (pronounced ``Hutch sharp''), matches the complexity of the Hutch++ algorithm [Meyer, Musco, Musco, Woodruff, 2021]. However, unlike Hutch++, Hutch# uses only \textit{non-adaptive} matrix-vector products with $A$ and $A^T$ and requires no orthogonalization or other adaptive linear algebra steps. Thus, Hutch# combines the simplicity of the Girard--Hutchinson estimator and the optimal query complexity of Hutch++.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2609.28472v1</guid>
+    </item>
+    <item>
+      <title>TCS+ talk: Wednesday, September 30 — Sepehr Assadi, University of Waterloo</title>
+      <link>https://tcsplus.wordpress.com/2026/09/24/tcs-talk-wednesday-september-30-sepehr-assadi-university-of-waterloo/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; person: sepehr assadi&lt;/p&gt;&lt;p&gt;The next TCS+ talk will take place this coming Wednesday, September 30th at 1:00 PM Eastern Time (10:00 AM Pacific Time, 19:00 Central European Time, 17:00 UTC). &lt;strong&gt;Sepehr Assadi&lt;/strong&gt; from University of Waterloo will speak about “&lt;em&gt;Greedy is Optimal for the Semi-Streaming Matching Problem&lt;/em&gt;” (abstract below). &lt;/p&gt;
+
+
+
+&lt;p&gt;You can reserve a spot as an individual or a group to join us live by signing up on &lt;a href="https://sites.google.com/view/tcsplus/welcome/next-tcs-talk" rel="noopener noreferrer"&gt;the online form&lt;/a&gt;. Registration is &lt;em&gt;not&lt;/em&gt; required to attend the interactive talk, and the link will be posted on the website the day prior to the talk; however, by registering in the form, you will receive a reminder, along with the link. (The recorded talk will also be posted &lt;a href="https://sites.google.com/view/tcsplus/welcome/past-talks" rel="noopener noreferrer"&gt;on our website&lt;/a&gt; afterwards) As usual, for more information about the TCS+ online seminar series and the upcoming talks, or to &lt;a href="https://sites.google.com/view/tcsplus/welcome/suggest-a-talk" rel="noopener noreferrer"&gt;suggest&lt;/a&gt; a possible topic or speaker, please see &lt;a href="https://sites.google.com/view/tcsplus/" rel="noopener noreferrer"&gt;the website&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Abstract: We prove that no single-pass semi-streaming algorithm (deterministic or randomized) can achieve a better-than-half approximation to the maximum matching problem. This implies the optimality of the naive greedy algorithm, answering a longstanding open question in graph streaming literature since the introduction of the model. Our proof consists of two main parts: &lt;/p&gt;
+
+
+
+&lt;p&gt;1. Blueprint framework: reducing the problem of proving lower bounds for semi-streaming matching to constructing certain combinatorial objects which we call blueprints; and, &lt;br /&gt;&lt;br /&gt;2. Blueprint construction: an optimal construction of such blueprints usable within this framework. &lt;/p&gt;
+
+
+
+&lt;p&gt;Putting these two parts together implies our semi-streaming matching lower bound. &lt;/p&gt;
+
+
+
+&lt;p&gt;Based on joint work with Max Jiang and Mars Xiang in &lt;a href="https://arxiv.org/abs/2607.14644" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2607.14644&lt;/a&gt; (STOC 2026) and &lt;a href="https://arxiv.org/abs/2607.14656" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2607.14656&lt;/a&gt; (arXiv; July 2026)&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="authors"&gt;By plustcs&lt;/p&gt;</description>
+      <guid isPermaLink="false">http://tcsplus.wordpress.com/?p=851</guid>
     </item>
   </channel>
 </rss>
