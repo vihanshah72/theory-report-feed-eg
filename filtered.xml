@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 07:51:48 +0000</lastBuildDate>
-    <item>
-      <title>Sampling Line-Graph Colorings with Constant Extra Colors</title>
-      <link>https://arxiv.org/abs/2609.27440v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: graph coloring&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Alireza+Haqi" rel="noopener noreferrer"&gt;Alireza Haqi&lt;/a&gt;&lt;/p&gt;Let $G$ be the line graph of a finite simple graph, with $n\geq1$ vertices and maximum degree $Δ$. We prove that single-site Glauber dynamics for uniform proper $q$-colorings mixes in $O_Δ(n\log(n/\varepsilon))$ steps for every integer $q\geqΔ+5$. Our proof uses the Bochner framework of Chen and Liu (2026).</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.27440v1</guid>
-    </item>
+    <lastBuildDate>Fri, 25 Sep 2026 13:50:32 +0000</lastBuildDate>
     <item>
       <title>Hutch#: Optimal non-adaptive Frobenius norm estimation</title>
       <link>https://arxiv.org/abs/2609.28472v1</link>
