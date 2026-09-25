@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 13:50:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 18:39:03 +0000</lastBuildDate>
     <item>
       <title>Hutch#: Optimal non-adaptive Frobenius norm estimation</title>
       <link>https://arxiv.org/abs/2609.28472v1</link>
@@ -66,6 +66,22 @@
       <link>https://arxiv.org/abs/2609.28751v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: max-cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Zhi-Long+Chen" rel="noopener noreferrer"&gt;Zhi-Long Chen&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Nicholas+G.+Hall" rel="noopener noreferrer"&gt;Nicholas G. Hall&lt;/a&gt;&lt;/p&gt;We study nonpreemptive scheduling on a single machine with release dates, due dates, positive job weights, and a common processing time. The objective is to minimize total weighted tardiness. Although closely related equal-processing-time problems admit polynomial-time algorithms, the complexity of this problem has remained open in the literature since 2010. We prove that its decision version is strongly NP-complete, even when every job can meet its due date if processed immediately upon release. The reduction is from unweighted MAX-CUT and uses a quadratic number of jobs with polynomially bounded numerical data. Its main ingredient is a constructive normalization theorem that converts every sufficiently inexpensive feasible schedule into a binary choice for each graph vertex; after normalization, total weighted tardiness equals a constant minus a scaled cut value. We also give a deterministic polynomial-time phase-grid assignment algorithm for the shifted objective $Φ=F+p\sum_jw_j$, where $F$ is total weighted tardiness. The algorithm enumerates at most $N$ release-date residues modulo $p$, solves one minimum-cost assignment problem for each residue, and returns the best phase-grid schedule. It runs in $O(N^5)$ arithmetic operations and achieves the tight ratio $3/2-1/(2N)$ for this algorithm. Because the added term $p\sum_jw_j$ is independent of how the jobs are scheduled, the shifted and original objectives have exactly the same optimal schedules. However, the approximation guarantee applies to the shifted objective; for the original objective, the analysis provides an additive bound. Thus, the paper both resolves the long-standing complexity question and provides a complementary worst-case guarantee for the phase-grid assignment algorithm.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2609.28751v1</guid>
+    </item>
+    <item>
+      <title>TR26-210 |  Improved Pseudorandom Generators for Read-$k$ Branching Programs | 
+
+	Dean Doron, 
+
+	Yonatan Lang</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/210</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;We construct improved pseudorandom generators for read-$k$ oblivious branching programs with a known reading sequence.
+For width-$w$ branching programs over $n$ variables, and designated error $\varepsilon$, our generator has seed length
+$$\mathcal{O}\left(n^{1-\frac{1}{2k-1}}\log n\left(k\log w+\log\frac{n}{\varepsilon}\right)\right).$$
+This improves upon the previous state-of-the-art due to Gurjar and Volk (ACM ToCT 2020), that has $1-\frac{1}{2^{k-1}}$ as the exponent of $n$ (and a multiplicative factor of $\exp(k^2)$), whenever $k \ge 4$. In particular, whenever $w$ and $1/\varepsilon$ are not too large, our seed length remains sublinear whenever $k=o(\log n/\log\log n)$, whereas the Gurjar and Volk's bound is sublinear only when
+$k=\mathcal{O}(\log\log n)$.
+
+Our main conceptual contribution is a new way of modeling branching programs within the communication network of the classical INW generator of Impagliazzo, Nisan, and Wigderson (STOC 1994). Whereas nearly all applications of the INW generator model communication over a branching program using a simple path graph, we instead design a binary-tree communication network whose leaves correspond to the input variables, that allows substantially more efficient routing between variables that may be read multiple times. Toward this end, we identify a structural condition on the reading sequence under which routing the branching program’s state through this network requires only $\mathcal{O}(k\log w)$ bits of communication per processor.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/210</guid>
     </item>
   </channel>
 </rss>
