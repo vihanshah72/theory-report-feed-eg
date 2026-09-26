@@ -7,15 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 22:23:14 +0000</lastBuildDate>
-    <item>
-      <title>Hutch#: Optimal non-adaptive Frobenius norm estimation</title>
-      <link>https://arxiv.org/abs/2609.28472v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tyler+Chen" rel="noopener noreferrer"&gt;Tyler Chen&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Diana+Halikias" rel="noopener noreferrer"&gt;Diana Halikias&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Christopher+Musco" rel="noopener noreferrer"&gt;Christopher Musco&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=David+Persson" rel="noopener noreferrer"&gt;David Persson&lt;/a&gt;&lt;/p&gt;The Girard--Hutchinson estimator provides an extremely simple randomized estimate of the Frobenius norm of a matrix $A$ that can only be accessed implicitly via matrix-vector products. In particular, if $Ω$ is a random Gaussian matrix with $r = O(1/\varepsilon^2)$ columns, than $\frac{1}{r}\|AΩ\|_F^2$ provides a $(1\pm \varepsilon)$ multiplicative approximation to $\|A\|_F^2$ with high probability.
-  In this work, we introduce a closely related estimator, given by \begin{align*}
-  {\frac{1}{r}\|AΩ\|_F^2 + \frac{1}{r}\|Ψ^T A\|_F^2 - \frac{1}{r^2}\|Ψ^T AΩ\|_F^2}, \end{align*} where $Ψ$ is a second, independent random Gaussian matrix with $r$ columns. We prove that this estimator yields a $(1\pm\varepsilon)$ multiplicative approximation to $\|A\|_F^2$ when $r = O(1/\varepsilon)$, a quadratic improvement over Girard--Hutchinson. This dependence on $\varepsilon$ is optimal. Our method, which we call Hutch# (pronounced ``Hutch sharp''), matches the complexity of the Hutch++ algorithm [Meyer, Musco, Musco, Woodruff, 2021]. However, unlike Hutch++, Hutch# uses only \textit{non-adaptive} matrix-vector products with $A$ and $A^T$ and requires no orthogonalization or other adaptive linear algebra steps. Thus, Hutch# combines the simplicity of the Girard--Hutchinson estimator and the optimal query complexity of Hutch++.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.28472v1</guid>
-    </item>
+    <lastBuildDate>Sat, 26 Sep 2026 01:36:23 +0000</lastBuildDate>
     <item>
       <title>TCS+ talk: Wednesday, September 30 — Sepehr Assadi, University of Waterloo</title>
       <link>https://tcsplus.wordpress.com/2026/09/24/tcs-talk-wednesday-september-30-sepehr-assadi-university-of-waterloo/</link>
