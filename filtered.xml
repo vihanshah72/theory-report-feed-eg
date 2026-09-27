@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 08:13:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 14:01:59 +0000</lastBuildDate>
     <item>
       <title>TCS+ talk: Wednesday, September 30 — Sepehr Assadi, University of Waterloo</title>
       <link>https://tcsplus.wordpress.com/2026/09/24/tcs-talk-wednesday-september-30-sepehr-assadi-university-of-waterloo/</link>
@@ -74,6 +74,22 @@ $k=\mathcal{O}(\log\log n)$.
 
 Our main conceptual contribution is a new way of modeling branching programs within the communication network of the classical INW generator of Impagliazzo, Nisan, and Wigderson (STOC 1994). Whereas nearly all applications of the INW generator model communication over a branching program using a simple path graph, we instead design a binary-tree communication network whose leaves correspond to the input variables, that allows substantially more efficient routing between variables that may be read multiple times. Toward this end, we identify a structural condition on the reading sequence under which routing the branching program’s state through this network requires only $\mathcal{O}(k\log w)$ bits of communication per processor.</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/210</guid>
+    </item>
+    <item>
+      <title>TR26-215 |  Interactive Proofs of Proximity for Model Evaluation | 
+
+	Geoffroy Couteau, 
+
+	Nikolas Melissaris, 
+
+	Tamara Paris</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/215</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;We study interactive proofs of proximity (IPP) for model evaluation: a resource-limited verifier interacts with an untrusted prover, typically the model owner, to certify statistical properties of a model under an unknown input distribution. Our formulation is shaped by the constraints of practical evaluation: it separates sampling the input distribution from querying the model and evaluating its output, allowing their costs and access patterns to be treated independently; it distinguishes real audit data (black-box sampling) from generated data (chosen-randomness, or gray-box, access to the sampler); and it allows the prover and the verifier to score outputs with different evaluators, as happens when scores come from human or judge models. We focus on doubly-sublinear IPPs (dsIPPs), in which both the verifier and the designated honest prover use sublinear resources, and on (weighted) Hamming weight properties, which capture the expectation of a Boolean evaluation rule under an unknown distribution and, consequently, a broad range of model-evaluation statistics.
+
+As a first step, we give a tolerant dsIPP for ordinary Hamming weight. For completeness and soundness radii $\varepsilon_c &amp;lt;\varepsilon_f$ and gap $g=\varepsilon_f-\varepsilon_c$, its logarithmic-round instantiation uses $\tilde{O}(1/g)$ verifier queries and $O(1/g^2)$ honest-prover queries, improving the cubic dependence of Amir, Goldreich, and Rothblum [ITCS 2025]. We prove matching query lower bounds up to polylogarithmic factors.
+
+We then study distribution-weighted Hamming weight under several access models. Under black-box sampling, the verifier uses $\Theta(1/g^2)$ samples but only $\tilde{O}(1/g)$ evaluations, and we show that the quadratic sample complexity is necessary in the interior regime. With chosen-randomness access to a sampler, the problem reduces to ordinary Hamming weight, giving $\tilde{O}(1/g)$ verifier calls and evaluations. When the two parties' evaluators may disagree arbitrarily on a $\rho$-fraction of the distribution and by up to $\gamma$ elsewhere, we give protocols that remain doubly sublinear whenever $g$ exceeds twice the mean mismatch $\kappa = \rho + (1-\rho)\gamma$. Finally, we show how our technical results can improve the efficiency of model evaluation in natural motivating scenarios by shifting the bulk of the evaluation burden to the model owner while letting any number of auditors verify claims cheaply; we apply them to auditing criteria including accuracy, group fairness, calibration, harmlessness, usefulness, and average-case robustness.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/215</guid>
     </item>
   </channel>
 </rss>
