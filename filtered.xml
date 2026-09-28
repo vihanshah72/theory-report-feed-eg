@@ -7,46 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 00:51:51 +0000</lastBuildDate>
-    <item>
-      <title>TCS+ talk: Wednesday, September 30 — Sepehr Assadi, University of Waterloo</title>
-      <link>https://tcsplus.wordpress.com/2026/09/24/tcs-talk-wednesday-september-30-sepehr-assadi-university-of-waterloo/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; person: sepehr assadi&lt;/p&gt;&lt;p&gt;The next TCS+ talk will take place this coming Wednesday, September 30th at 1:00 PM Eastern Time (10:00 AM Pacific Time, 19:00 Central European Time, 17:00 UTC). &lt;strong&gt;Sepehr Assadi&lt;/strong&gt; from University of Waterloo will speak about “&lt;em&gt;Greedy is Optimal for the Semi-Streaming Matching Problem&lt;/em&gt;” (abstract below). &lt;/p&gt;
-
-
-
-&lt;p&gt;You can reserve a spot as an individual or a group to join us live by signing up on &lt;a href="https://sites.google.com/view/tcsplus/welcome/next-tcs-talk" rel="noopener noreferrer"&gt;the online form&lt;/a&gt;. Registration is &lt;em&gt;not&lt;/em&gt; required to attend the interactive talk, and the link will be posted on the website the day prior to the talk; however, by registering in the form, you will receive a reminder, along with the link. (The recorded talk will also be posted &lt;a href="https://sites.google.com/view/tcsplus/welcome/past-talks" rel="noopener noreferrer"&gt;on our website&lt;/a&gt; afterwards) As usual, for more information about the TCS+ online seminar series and the upcoming talks, or to &lt;a href="https://sites.google.com/view/tcsplus/welcome/suggest-a-talk" rel="noopener noreferrer"&gt;suggest&lt;/a&gt; a possible topic or speaker, please see &lt;a href="https://sites.google.com/view/tcsplus/" rel="noopener noreferrer"&gt;the website&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;blockquote&gt;
-&lt;p&gt;Abstract: We prove that no single-pass semi-streaming algorithm (deterministic or randomized) can achieve a better-than-half approximation to the maximum matching problem. This implies the optimality of the naive greedy algorithm, answering a longstanding open question in graph streaming literature since the introduction of the model. Our proof consists of two main parts: &lt;/p&gt;
-
-
-
-&lt;p&gt;1. Blueprint framework: reducing the problem of proving lower bounds for semi-streaming matching to constructing certain combinatorial objects which we call blueprints; and, &lt;br /&gt;&lt;br /&gt;2. Blueprint construction: an optimal construction of such blueprints usable within this framework. &lt;/p&gt;
-
-
-
-&lt;p&gt;Putting these two parts together implies our semi-streaming matching lower bound. &lt;/p&gt;
-
-
-
-&lt;p&gt;Based on joint work with Max Jiang and Mars Xiang in &lt;a href="https://arxiv.org/abs/2607.14644" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2607.14644&lt;/a&gt; (STOC 2026) and &lt;a href="https://arxiv.org/abs/2607.14656" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2607.14656&lt;/a&gt; (arXiv; July 2026)&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p class="authors"&gt;By plustcs&lt;/p&gt;</description>
-      <guid isPermaLink="false">http://tcsplus.wordpress.com/?p=851</guid>
-    </item>
-    <item>
-      <title>Practical and Space-Efficient LZ77 and LZ Pre-Compression via String Synchronizing Sets</title>
-      <link>https://arxiv.org/abs/2609.30193v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Jonas+Ellert" rel="noopener noreferrer"&gt;Jonas Ellert&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Lukas+Nalbach" rel="noopener noreferrer"&gt;Lukas Nalbach&lt;/a&gt;&lt;/p&gt;The Lempel-Ziv (LZ77) factorization decomposes a text into the least possible number $z$ of phrases that each refer to an earlier occurrence. It is this phrase count, rather than the encoded size, that governs the size of LZ-based compressed indexes, and computing a factorization with few phrases is a time and space bottleneck in their construction. In practice, computing LZ77 quickly has so far required building a suffix array. Ellert [SPIRE 2023] gave algorithms that compute the exact LZ77 factorization, and a 3-approximation of it, in sublinear working space. They have remained unimplemented, because two of their components resist a direct implementation: a lookup table that degenerates to patterns of length at most two for realistic inputs, and an orthogonal range reporting data structure that is impractical. We replace both, fine-tune every remaining stage, and obtain the first practical implementation, which runs in space close to the text rather than to the suffix array. On one thread, our 3-approximation factorizes 12-19x faster than the classical LPF algorithm while using 14x less memory; on 32 threads, even our exact algorithm is 1.4--2.9x faster than parallel LPF, at 9x less memory. In practice the approximation ratio stays far below 3. As a side result, passing only its perfect phrases to a downstream compressor yields a precompressor that is on par with the state of the art [Dinklage, SEA 2026] in compression ratio, and better in memory consumption and parallel throughput.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.30193v1</guid>
-    </item>
+    <lastBuildDate>Mon, 28 Sep 2026 06:57:28 +0000</lastBuildDate>
     <item>
       <title>It's the Geometry, Not the Model: Effective Rank and Subspace Alignment in Functional Connectivity Classification</title>
       <link>https://arxiv.org/abs/2609.29932v1</link>
@@ -90,6 +51,27 @@ As a first step, we give a tolerant dsIPP for ordinary Hamming weight. For compl
 
 We then study distribution-weighted Hamming weight under several access models. Under black-box sampling, the verifier uses $\Theta(1/g^2)$ samples but only $\tilde{O}(1/g)$ evaluations, and we show that the quadratic sample complexity is necessary in the interior regime. With chosen-randomness access to a sampler, the problem reduces to ordinary Hamming weight, giving $\tilde{O}(1/g)$ verifier calls and evaluations. When the two parties' evaluators may disagree arbitrarily on a $\rho$-fraction of the distribution and by up to $\gamma$ elsewhere, we give protocols that remain doubly sublinear whenever $g$ exceeds twice the mean mismatch $\kappa = \rho + (1-\rho)\gamma$. Finally, we show how our technical results can improve the efficiency of model evaluation in natural motivating scenarios by shifting the bulk of the evaluation burden to the model owner while letting any number of auditors verify claims cheaply; we apply them to auditing criteria including accuracy, group fairness, calibration, harmlessness, usefulness, and average-case robustness.</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/215</guid>
+    </item>
+    <item>
+      <title>An Optimal Structure for All-Pairs Nearest Mincuts and Sensitivity Oracles for Edge Insertions</title>
+      <link>https://arxiv.org/abs/2609.31290v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: minimum cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Koustav+Bhanja" rel="noopener noreferrer"&gt;Koustav Bhanja&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Yotam+Kenneth-Mordoch" rel="noopener noreferrer"&gt;Yotam Kenneth-Mordoch&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Asaf+Petruschka" rel="noopener noreferrer"&gt;Asaf Petruschka&lt;/a&gt;&lt;/p&gt;Given an undirected weighted graph $G=(V,E)$ on $n$ vertices, the classical Gomory-Hu tree of $G$ is a structure that encodes an arbitrary minimum $s,t$-cut for every $s,t\in V$ using just $O(n)$ space. In this work, we ask whether the same compactness is achievable for the natural and structured family of all-pairs \textit{nearest minimum cuts}. The nearest minimum $(s,t)$-cut is the unique inclusion-wise minimal one among all minimum $s,t$-cuts containing $s$. This family has proven useful in a wide range of applications, including fault-tolerant reachability, minimum cut sensitivity oracles, cactus representations, and fast Gomory-Hu tree constructions. Despite its fundamental role, no subquadratic space representation is known for them to date. The $O(n)$ space representations are known only in single-source settings, where given a source $s$, one can report the nearest minimum $(t,s)$-cut for any $t\in V\setminus \{s\}$.
+  We close this gap by presenting the first optimal space representation of all-pairs nearest minimum cuts, providing a natural analogue of the Gomory-Hu tree. Our main result is an $O(n)$ space structure that encodes the nearest minimum cut between every pair of vertices. Furthermore, given any pair $s,t\in V$, it can report the nearest minimum $s,t$-cut in $O(n)$ time. Both bounds match those of the Gomory-Hu tree and are worst-case optimal. As an application, we design an all-pairs minimum cut sensitivity oracle for edge insertion: a data structure that occupies $O(n)$ space and, given any edge $e$, can determine for all pairs $s,t\in V$ whether the minimum $s,t$-cut value increases upon insertion of $e$ in $O(n^2)$ total time. Existing insertion sensitivity oracles were either limited to the single-source setting or used $O(n^2)$ space for all-pairs [Baswana, Gupta, and Knollmann, Algorithmica'22; Baswana and Pandey, SODA'22].</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.31290v1</guid>
+    </item>
+    <item>
+      <title>Geometric Optimization Parameterized by Piercing Complexity</title>
+      <link>https://arxiv.org/abs/2609.30829v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Aritra+Banik" rel="noopener noreferrer"&gt;Aritra Banik&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Rajiv+Raman" rel="noopener noreferrer"&gt;Rajiv Raman&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Saurabh+Ray" rel="noopener noreferrer"&gt;Saurabh Ray&lt;/a&gt;&lt;/p&gt;Packing and covering problems for geometric regions have been studied under many notions of complexity, including VC-dimension, union complexity, shallow-cell complexity, and fatness. Although these restrictions often yield constant-factor approximation algorithms, they do not by themselves generally lead to PTASs. A recurring feature of known hardness constructions is that one region may be \emph{pierced} by many others: a region $B$ pierces $A$ when $A\setminus B$ is disconnected.
+  We study geometric instances through the \emph{piercing degree}. Since piercing is symmetric for Jordan regions, this is the maximum degree of the corresponding piercing graph. Our main result is that, for every fixed piercing degree, the standard local-search algorithms give PTASs for the unweighted \emph{Discrete Independent Set} and \emph{Set Cover} problems. The proof constructs a sublinear balanced separator for an appropriate locality graph and applies it adaptively throughout the recursive local-search analysis. This guarantee depends only on the piercing degree; in particular, it places no bound on the number of components created by an individual piercing pair.
+  We also prove a polynomial shallow-trace bound depending only on the piercing degree. As consequences, for every fixed piercing degree, weighted Set Cover admits a deterministic $C_r$-approximation and weighted Discrete Independent Set admits a deterministic $O(r+1)$-approximation. These results extend the known guarantees for non-piercing families and apply, for example, to axis-parallel rectangles when every rectangle is pierced by only a bounded number of other rectangles.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.30829v1</guid>
+    </item>
+    <item>
+      <title>KnottedGraph: Scalable knotted-graph topology for scientific and mathematical discovery</title>
+      <link>https://arxiv.org/abs/2609.31152v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Hakan+Akg%C3%BCn" rel="noopener noreferrer"&gt;Hakan Akgün&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Xianquan+Yan" rel="noopener noreferrer"&gt;Xianquan Yan&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Kehan+Liu" rel="noopener noreferrer"&gt;Kehan Liu&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Zhaoyun+Chen" rel="noopener noreferrer"&gt;Zhaoyun Chen&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Ching+Hua+Lee" rel="noopener noreferrer"&gt;Ching Hua Lee&lt;/a&gt;&lt;/p&gt;Scientific data span heterogeneous structures, including coordinates, networks, surfaces, volumes and fields, yet their topology can be quantified within a common framework through graph connectivity, cycle structure, genus and spatial embedding. Graph- and homology-based summaries do not determine spatial embedding, while standard knot and link polynomials require extensions to accommodate branching graphs. Here, we introduce KnottedGraph, a computational framework that converts such scientific representations to knotted graphs that retain graph connectivity and spatial embedding together. It constructs projected diagrams and PD codes, enabling various topological analyses, including Yamada-polynomial evaluation for topological classification. For scalable exact evaluation, it combines partial resolutions that leave the same unresolved connections and optimizes their processing order; the resulting algorithm is verified against published topological invariants of knotted graphs with up to 500 crossings. This scalability enables us to introduce an LLM-assisted mathematical-discovery methodology, in which computational topological data generated across knotted-graph families are used to identify candidate closed-form formulas. With this approach, we identify analytical Yamada-polynomials for generic graph motif families exhibiting Abelian and non-Abelian word sequences. Together, these scalable capabilities make knotted-graph topology computationally accessible across scientific domains, enabling large-scale classification and introducing a route from topological data to LLM-assisted AI4Math discovery.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.31152v1</guid>
     </item>
   </channel>
 </rss>
