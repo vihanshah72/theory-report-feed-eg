@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 15:54:39 +0000</lastBuildDate>
-    <item>
-      <title>SparseDesign: Scaling Exact Coding-Sequence Design</title>
-      <link>https://arxiv.org/abs/2609.32308v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sparsification&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Hao+Lin" rel="noopener noreferrer"&gt;Hao Lin&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jingjin+Yu" rel="noopener noreferrer"&gt;Jingjin Yu&lt;/a&gt;&lt;/p&gt;Exact optimization of synonymous coding sequences under a joint folding-energy and codon-usage objective is limited by expensive dynamic-programming splits and large working sets. \textsc{SparseDesign} applies candidate sparsification to the multiloop recurrence of a Turner~2004 dangle-0 solver over a weighted codon automaton. A direct branch is retained only when it strictly improves on every partitionable or endpoint-unpaired realization of the same endpoint states. We prove equivalence to the dense recurrence in real arithmetic, under an explicit scalar branch-interface assumption. With $N$ automaton states, edge set $E$ and $Z$ retained candidates, multiloop work is $O(N^2+N|E|+NZ)$; worst-case time remains cubic for bounded-width automata and total memory remains quadratic. Endpoint ownership permits parallel candidate construction without locks. While synthetic stress families can benefit little from sparsification and exhibit near-quadratic candidate growth, natural proteins show substantial candidate-count reductions. In our 7,600-task campaign, the 2,000-protein human-table panel has median retention of only 3.53\% at $λ=0$ and 2.15\% at $λ=4$, corresponding to approximately 28.3-fold and 46.4-fold reductions relative to all feasible direct intervals. The primary performance experiments use an AMD EPYC 7313 server. For human Dp427c (11,031 nt, $λ=0$), 16-thread packed \textsc{SparseDesign} achieves five-run medians of 236.54 seconds wall-clock time and 14.43 GiB peak RSS. Compared with the single-thread local dense LinearDesign fork on the same server (4,912 seconds, 402.10 GiB RSS), this gives a 20.8-fold wall-clock speedup and a 27.9-fold peak-memory reduction. On a Core i9-14900KF commodity PC with 64 GiB RAM, the same input, layout and thread count achieve 126.42 seconds and 14.43 GiB RSS.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.32308v1</guid>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 20:49:37 +0000</lastBuildDate>
     <item>
       <title>Online Covering with Maximum Delay under Subadditive Service Costs</title>
       <link>https://arxiv.org/abs/2609.32675v1</link>
