@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 19:23:08 +0000</lastBuildDate>
-    <item>
-      <title>Maximum Matching on Regular Nonbipartite Graphs</title>
-      <link>https://arxiv.org/abs/2609.14126v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Varsha+Dani" rel="noopener noreferrer"&gt;Varsha Dani&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Thomas+P.+Hayes" rel="noopener noreferrer"&gt;Thomas P. Hayes&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Seth+Pettie" rel="noopener noreferrer"&gt;Seth Pettie&lt;/a&gt;&lt;/p&gt;Blocking flow-type maximum matching algorithms are based on finding maximal sets of shortest augmenting paths. They run in $O(m\sqrt{n})$ time, on both bipartite [HK73, Din70, Kar73a, Kar73a] and nonbipartite graphs [GT91, Gab17, Vaz24], but this time bound can be improved if the input is constrained. In this paper we consider $d$-regular bipartite and nonbipartite graphs. Previous algorithms show that a perfect matching in $d$-regular bipartite graphs can be computed in near-linear time deterministically [COS01] or sublinear time with high probability [GKK13]. On $d$-regular non-bipartite graphs, a $(1-1/(d+1))$-approximation can be computed in sublinear time $O(n \log n)$ with high probability [DH25], and hence a maximum matching can be computed in $O(n^2)$ time, w.h.p., which is slightly faster than the best deterministic algorithm for regular graphs [Yus13], running in O(n^2 log n) time. We prove that any blocking flow-type maximum matching algorithm based on finding shortest augmenting paths runs in $O(n^2)$ time on d-regular graphs, both bipartite and nonbipartite. On nonbipartite graphs this is an asymptotic improvement over $O(n^2 \log n)$ [Yus13] and an improvement over $O(m\sqrt{n})$ [GT91, Gab17, Vaz24] when $d = ω(\sqrt{n})$. It also improves [DH25] by making its $O(n^2)$ bound deterministic. However, the main take-away message is that no new algorithms are needed: the "classic" matching algorithms automatically outperform [Yus13, DH25]. We also consider extensions of our results to graphs that are only "nearly regular," meaning that their degrees all lie within a specified range, $[d, Δ]$.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.14126v1</guid>
-    </item>
+    <lastBuildDate>Wed, 30 Sep 2026 23:52:45 +0000</lastBuildDate>
     <item>
       <title>A $(p+q)^{O(pq)}$-approximation for $(p, q)$-Flexible Graph Connectivity</title>
       <link>https://arxiv.org/abs/2609.14243v1</link>
