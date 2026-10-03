@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 22:59:21 +0000</lastBuildDate>
-    <item>
-      <title>Tight Convergence Bounds for the Classical Kaczmarz Method</title>
-      <link>https://arxiv.org/abs/2609.32034v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Runbo+Yu" rel="noopener noreferrer"&gt;Runbo Yu&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jelena+Diakonikolas" rel="noopener noreferrer"&gt;Jelena Diakonikolas&lt;/a&gt;&lt;/p&gt;The classical method of Kaczmarz, introduced in 1937, is a textbook iterative method for solving linear systems $A x = b.$ Despite its widespread use, particularly in the context of solving inverse problems where it is commonly included in software packages within Matlab, Python, and Julia, the precise characterization of convergence has long been deemed difficult to obtain. While different bounds on convergence rates have been established, they are largely unsatisfying as they cannot explain the classical, cyclic-update method's efficient convergence in practice. In this work, we obtain a tight characterization of convergence of the classical Kaczmarz method, establishing both linear and sublinear convergence bounds. The worst-case tight (i.e., exactly attained by some instances in the considered family) bounds are expressed in terms of a fixed matrix that depends only on $A,$ but are not fully interpretable in terms of the matrix spectrum and row correlations, which had been observed to have an impact on convergence. We thus provide relaxations of these bounds that are fully expressible in terms of matrix row norms, row correlations, rank, and extremal positive singular values. The provided relaxed bounds explain one-cycle convergence in special cases where the matrix rows are all either parallel or orthogonal to each other. We further argue that the dependence on different parameters appearing in the bounds is necessary and within a small constant factor of the best attainable in the worst case. Finally, our bounds explain why the classical cyclic update is faster than the randomized one when matrix rows are weakly correlated, which is often observed in inverse problems where the cyclic method is used.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.32034v1</guid>
-    </item>
+    <lastBuildDate>Sat, 03 Oct 2026 02:00:45 +0000</lastBuildDate>
     <item>
       <title>Efficient Support Recovery of Mixtures of Sparse Linear Classifiers with Less Measurements</title>
       <link>https://arxiv.org/abs/2609.32176v1</link>
