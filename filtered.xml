@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 17:36:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 21:29:59 +0000</lastBuildDate>
     <item>
       <title>Online Covering with Maximum Delay under Subadditive Service Costs</title>
       <link>https://arxiv.org/abs/2609.32675v1</link>
@@ -161,6 +161,18 @@ The translate-family result, and hence the list-decoding application, applies ov
       <link>https://eccc.weizmann.ac.il/report/2026/227</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: property testing&lt;/p&gt;Testing whether a bounded-degree $n$-vertex graph is bipartite or far from bipartite requires $\widetilde\Theta(\sqrt n)$ queries (Goldreich--Ron, Combinatorica'99, Algorithmica'02). An interactive proof of proximity (IPP) is a hybrid model of property testing and interactive proofs: the verifier faces the same task with the same query access, but it now interacts with an untrusted prover that sees the whole graph. Rothblum, Vadhan, and Wigderson (STOC'13) introduced this model and gave a one-round private-coin IPP for bipartiteness on well-mixing graphs with query and communication costs both $O(\log n)$ for fixed parameters, an exponential improvement over plain testing. The mixing assumption was used in their soundness analysis, and they asked whether it could be removed. We give a slightly modified version of the original RVW protocol and prove its soundness without the mixing promise. In the RVW protocol, soundness follows by bounding the probability of correctly guessing the parity of a hidden random walk from its start and endpoint. The best guess is wrong with probability equal to the overlap between the endpoint probabilities for even and odd numbers of edge traversals, and mixing gives one way to bound this overlap. We prove an overlap theorem that requires no mixing, building on the recent semidefinite programming (SDP) analysis of the Goldreich--Ron tester by Fei and Rubinfeld (2026).</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/227</guid>
+    </item>
+    <item>
+      <title>TR26-228 |  Bitwise-Optimal Cryptography: From One-Wayness to Pseudorandomness and Target Collision Resistance | 
+
+	Benny Applebaum</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/228</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sparsification&lt;/p&gt;We study cryptographic primitives that are both locally computable (i.e., in $\mathrm{NC}^0$) and exponentially secure. For pseudorandom generators (PRGs) and universal one-way hash functions (UOWHFs), we further require linear stretch and linear compression, respectively, which is essentially the best one can hope for in this setting. Such primitives simultaneously achieve an extreme level of security and efficiency: each output bit inspects only a constant number of input bits, while each input bit buys a constant amount of security and expansion/shrinkage, in an amortized sense. We refer to such primitives as \emph{bitwise optimal}.
+
+We prove that bitwise-optimal PRGs and UOWHFs can be obtained from \emph{any} exponentially secure one-way function (OWF) in $\mathrm{NC}^0$, thereby establishing an equivalence between these three primitives in the bitwise-optimal regime. Notably, an analogous equivalence is not known in the exponential-security regime for general, unrestricted cryptographic primitives without imposing an additional regularity condition.
+
+Our results combine the machinery of the author (Applebaum, FOCS'17) with new structural results on locally computable functions that may be of independent interest. We prove a sparsification theorem that reduces the output length of any exponentially secure local OWF to $O(n)$ while preserving exponential hardness, an input-locality reduction that bounds the number of outputs affected by each input bit, and a structural theorem showing that functions with bounded input locality are typically almost regular. Together, these ingredients remove the regularity assumption required by previous constructions and yield a non-black-box transformation from exponentially secure OWFs in $\mathrm{NC}^0$ to bitwise-optimal PRGs and UOWHFs. As an additional contribution, we prove a projection-based compression theorem for locally samplable sources.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/228</guid>
     </item>
   </channel>
 </rss>
