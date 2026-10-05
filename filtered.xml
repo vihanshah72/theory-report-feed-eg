@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:57:53 +0000</lastBuildDate>
-    <item>
-      <title>On the Complexity of Forcing and Anti-Forcing Minimum Cuts</title>
-      <link>https://arxiv.org/abs/2609.33292v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: minimum cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tatsuya+Gima" rel="noopener noreferrer"&gt;Tatsuya Gima&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Yasuaki+Kobayashi" rel="noopener noreferrer"&gt;Yasuaki Kobayashi&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Hiraku+Morimoto" rel="noopener noreferrer"&gt;Hiraku Morimoto&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Yota+Otachi" rel="noopener noreferrer"&gt;Yota Otachi&lt;/a&gt;&lt;/p&gt;For an instance of a combinatorial optimization problem, a \emph{forcing set} is a set of elements such that there is a unique optimal solution including it. Symmetrically, an \emph{anti-forcing set} is a set of elements such that there is a unique optimal solution excluding it. In this paper, we study the problems of computing smallest forcing and anti-forcing sets for two classical cut problems, \textsc{Global Min Cut} and \textsc{Min $s$--$t$ Cut}. We also consider variants in which the optimal cut to be uniquely determined is given as input. For each of these problems, we either give a polynomial-time algorithm or prove \NP-completeness.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.33292v1</guid>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2026 07:05:53 +0000</lastBuildDate>
     <item>
       <title>Interactive Proofs of Proximity for Model Evaluation</title>
       <link>https://arxiv.org/abs/2609.32007v1</link>
@@ -122,13 +116,6 @@ The translate-family result, and hence the list-decoding application, applies ov
       <guid isPermaLink="false">http://arxiv.org/abs/2610.00846v1</guid>
     </item>
     <item>
-      <title>A Faster Auction Algorithm for Weighted Matroid Intersection</title>
-      <link>https://arxiv.org/abs/2610.00920v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tatsuya+Terao" rel="noopener noreferrer"&gt;Tatsuya Terao&lt;/a&gt;&lt;/p&gt;We consider the weighted matroid intersection problem in the independence-oracle model. A sequence of works by Huang--Kakimura--Kamiyama [SODA'16 \&amp;amp; Math. Program'19], Chekuri--Quanrud [SODA'16], Quanrud [ICALP'24], and Dudeja--Grilnberger [IPCO'26] has developed efficient $(1-\varepsilon)$-approximation algorithms for this problem.
-  We present a simple deterministic auction algorithm that, given two matroids on a common ground set of size $n$, computes a $(1-\varepsilon)$-approximate maximum-weight common independent set using $O(n \varepsilon^{-2} \log^2(n))$ independence-oracle queries. This is the first deterministic $(1-\varepsilon)$-approximation algorithm for the weighted matroid intersection problem whose query complexity is nearly linear in $n$ and polynomial in $1/\varepsilon$. Our algorithm builds on the auction algorithm for unweighted matroid intersection by Huang--Kobayashi ['26], together with the analysis of the auction algorithm for weighted bipartite matching by Liu--Ke--Khuller [APPROX'23].</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.00920v1</guid>
-    </item>
-    <item>
       <title>Settling the Pass Complexity of Streaming Set Cover</title>
       <link>https://arxiv.org/abs/2610.01007v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; person: sepehr assadi&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Sepehr+Assadi" rel="noopener noreferrer"&gt;Sepehr Assadi&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Janani+Sundaresan" rel="noopener noreferrer"&gt;Janani Sundaresan&lt;/a&gt;&lt;/p&gt;In the streaming set cover problem, $m$ sets from a universe of size $n$ are arriving one by one in a stream, and the algorithm is allowed to process the stream using one or a few passes and a space of $o(mn)$, which is sublinear in the input size. The goal is to determine the minimal (or approximately minimal) number of sets that cover the universe at the end of the last pass.
@@ -167,6 +154,12 @@ We prove that bitwise-optimal PRGs and UOWHFs can be obtained from \emph{any} ex
 
 Our results combine the machinery of the author (Applebaum, FOCS'17) with new structural results on locally computable functions that may be of independent interest. We prove a sparsification theorem that reduces the output length of any exponentially secure local OWF to $O(n)$ while preserving exponential hardness, an input-locality reduction that bounds the number of outputs affected by each input bit, and a structural theorem showing that functions with bounded input locality are typically almost regular. Together, these ingredients remove the regularity assumption required by previous constructions and yield a non-black-box transformation from exponentially secure OWFs in $\mathrm{NC}^0$ to bitwise-optimal PRGs and UOWHFs. As an additional contribution, we prove a projection-based compression theorem for locally samplable sources.</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/228</guid>
+    </item>
+    <item>
+      <title>How to Have a Sensitive Debate: An Instance-Optimal Protocol for AI Debate</title>
+      <link>https://arxiv.org/abs/2610.02557v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Jiawei+Li" rel="noopener noreferrer"&gt;Jiawei Li&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Zhiyang+Xun" rel="noopener noreferrer"&gt;Zhiyang Xun&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Lijie+Chen" rel="noopener noreferrer"&gt;Lijie Chen&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jonah+Brown-Cohen" rel="noopener noreferrer"&gt;Jonah Brown-Cohen&lt;/a&gt;&lt;/p&gt;As powerful AI systems reach and sometimes surpass the abilities of human experts across a range of cognitively demanding tasks, the problem of accurate oversight and supervision of these systems has become increasingly urgent. One promising approach is AI debate, which seeks to leverage a debate between two powerful AIs to break complex questions down into simpler claims that can be easily judged directly. Theoretical work on debate has formalized this intuition in the language of computational complexity theory, where the goal is to design protocols (i.e., rules of the debate game) that provide rigorous guarantees on correctness for judging solutions to complex problems with limited supervision. Specifically, the current best protocol has been shown to work for all problems that have sufficiently stable decompositions into subproblems. In this paper, we design a new protocol for this same class of problems that improves on the prior work in several ways. First, correctness holds in a worst-case rather than an average-case sense. Second, being honest and correct is a dominant-strategy equilibrium for both debaters, rather than a Stackelberg equilibrium. Finally, we prove black-box lower bounds, showing that our new protocol is instance-wise optimal. That is, no protocol for this class of problems can outperform ours while making only black-box queries to human judgments. We obtain these results by relating the notion of stable problem decompositions to the concept of fractional block sensitivity from query complexity.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.02557v1</guid>
     </item>
   </channel>
 </rss>
