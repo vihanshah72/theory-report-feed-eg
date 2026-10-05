@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:29:59 +0000</lastBuildDate>
-    <item>
-      <title>Online Covering with Maximum Delay under Subadditive Service Costs</title>
-      <link>https://arxiv.org/abs/2609.32675v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: min-cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tianhang+Lu" rel="noopener noreferrer"&gt;Tianhang Lu&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Runtian+Ren" rel="noopener noreferrer"&gt;Runtian Ren&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Shengcai+Liu" rel="noopener noreferrer"&gt;Shengcai Liu&lt;/a&gt;&lt;/p&gt;We study online covering in which each instantaneous service pays its purchase cost and one maximum waiting time, with no effect on future requests. For static realizable services, monotone subadditivity suffices for optimal competitive ratios; submodularity is unnecessary. A normalized monotone subadditive lower-bound oracle with realization factor $ρ$ yields ratios $ρ+1$ deterministically and $1/(1-e^{-1/ρ})$ randomly against an oblivious adversary. Exact batch optimization gives the optimal constants $2$ and $e/(e-1)$. The randomized algorithm uses one global threshold on a seed-independent virtual-height trajectory, whose active time is a lower bound on the offline optimum. Weighted vertex cover gives a strict separation from submodularity on a three-edge bipartite path, with polynomial-time batch implementations through min-cut and LP rounding. An offline consecutive-batch normal form also transfers static approximation guarantees to the offline problem.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2609.32675v1</guid>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2026 00:57:53 +0000</lastBuildDate>
     <item>
       <title>On the Complexity of Forcing and Anti-Forcing Minimum Cuts</title>
       <link>https://arxiv.org/abs/2609.33292v1</link>
