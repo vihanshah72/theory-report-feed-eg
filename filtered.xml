@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 10:22:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 17:12:58 +0000</lastBuildDate>
     <item>
       <title>Testing Induced-Subgraph Freeness in Outerplanar Graphs under the Random-Neighbor Oracle</title>
       <link>https://arxiv.org/abs/2609.39656v1</link>
@@ -122,6 +122,26 @@ Our results combine the machinery of the author (Applebaum, FOCS'17) with new st
       <link>https://arxiv.org/abs/2610.06743v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: local computation&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Anssi+Yli-Jyr%C3%A4" rel="noopener noreferrer"&gt;Anssi Yli-Jyrä&lt;/a&gt;&lt;/p&gt;We introduce recurrent incidence automata (RIAs), a new automaton model motivated by a decomposition of certain two-stack visibly pushdown computations. The decomposition separates vertex-local finite-state computations from recurrent one-stack interfaces connecting consecutive vertices. The construction is motivated by a two-stack visibly pushdown encoding of arbitrary ordered graphs whose strings admit a unique factorization into center-foldable vertex-local factors and whose auxiliary stack is empty at every factor boundary. Folding each factor into a sequence of pair symbols yields a local interface transformation. An RIA consists of a finite-state unit that computes these transformations and a recurrent layer that composes them across consecutive factors. Rather than manipulating an internal pushdown store, RIAs externalize long-range stack memory into recurrent interfaces between local computations. We show that nondeterministic RIA languages are closed under union, intersection, concatenation, Kleene-*, and reversal. Deterministic RIAs are closed under Boolean operations, although emptiness remains undecidable.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2610.06743v1</guid>
+    </item>
+    <item>
+      <title>TR26-231 |  Tarski Fixed Points in Quasi-FPT Queries | 
+
+	Xi Chen, 
+
+	Ruiquan Gao, 
+
+	Yuhao Li, 
+
+	Aviad Rubinstein, 
+
+	Mihalis Yannakakis</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/231</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;We study the query complexity of finding a Tarski fixed point over $[n]^k$. Previous work has left a large gap between $\smash{{\Omega}(\log^2 n)}$ and $\smash{\log^{O(k)}n}$. We show that both of the previous  upper and lower bounds were far from tight: for every $k\geq 3$,
+$$
+\Omega\left((\log n)^{\frac{1}{2}\lceil \log k\rceil}\right)\le 
+\textrm{Tarski}(n,k)\le O\left(5^k (\log n)^{\lceil \log k\rceil}\right).$$
+Succinctly, up to the fixed-parameter factor of $5^k$, the complexity is settled at $(\log n)^{\Theta(\log k )}$. In particular, we obtain the first super-polynomial query lower bound for this problem.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/231</guid>
     </item>
   </channel>
 </rss>
