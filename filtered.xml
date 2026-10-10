@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 07:11:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 13:45:23 +0000</lastBuildDate>
     <item>
       <title>How to Have a Sensitive Debate: An Instance-Optimal Protocol for AI Debate</title>
       <link>https://arxiv.org/abs/2610.02557v1</link>
@@ -114,6 +114,14 @@ Succinctly, up to the fixed-parameter factor of $5^k$, the complexity is settled
       <link>https://arxiv.org/abs/2610.10904v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Young+Kun+Ko" rel="noopener noreferrer"&gt;Young Kun Ko&lt;/a&gt;&lt;/p&gt;We prove an $Ω((\log n/\log\log n)^2)$ unconditional lower bound on the maximum of the query time and update time for dynamic data structures supporting reachability queries in $n$-node directed acyclic graphs under edge insertions. This improves the $\widetildeΩ(\log^{3/2} n)$ lower bound of Larsen and Yu [SICOMP 2025], and matches the strongest lower bound known for any dynamic problem. The same bound holds for incremental undirected shortest paths and subgraph connectivity. To prove it, we bring the recent framework of Ko [FOCS 2026], which gave this bound for Pătraşcu's multiphase problem with Inner Product, to the multiphase problem with Disjointness. Our main technical contribution is to show that verification in Ko's 2.5-round multiphase communication game makes a one-sided corruption bound suffice in place of discrepancy, which Disjointness lacks.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2610.10904v1</guid>
+    </item>
+    <item>
+      <title>TR26-244 |  ?((log n/log log n)²) Lower Bounds for Dynamic Graph Problems | 
+
+	Young Kun Ko</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/244</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;We prove an $\Omega((\log n/\log\log n)^2)$ unconditional lower bound on the maximum of the query time and update time for dynamic data structures supporting reachability queries in $n$-node directed acyclic graphs under edge insertions. This improves the $\widetilde{\Omega}(\log^{3/2} n)$ lower bound of Larsen and Yu [SICOMP 2025], and matches the strongest lower bound known for any dynamic problem. The same bound holds for incremental undirected shortest paths and subgraph connectivity. To prove it, we bring the recent framework of Ko [FOCS 2026], which gave this bound for P?tra?cu's multiphase problem [STOC 2010] with Inner Product, to the multiphase problem with Disjointness. Our main technical contribution is to show that verification in Ko's 2.5-round multiphase communication game makes a one-sided corruption bound suffice in place of discrepancy, which Disjointness lacks.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/244</guid>
     </item>
   </channel>
 </rss>
