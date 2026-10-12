@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 07:23:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 17:57:53 +0000</lastBuildDate>
     <item>
       <title>Improved Sublinear Algorithms for Maximal Independent Set and Metric Steiner Forest</title>
       <link>https://arxiv.org/abs/2610.06053v1</link>
@@ -356,6 +356,12 @@ incentives. &lt;a href="https://minorfree.github.io/Clement/#fnref:6" rel="noop
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sparsification&lt;/p&gt;A constant-depth circuit consists of AND and OR gates of unbounded fan-in, arranged in a constant number of layers, that read the input literals; for example, a depth-three circuit is an OR of CNFs or an AND of DNFs. The classical lower bound of Håstad (1989) states that every depth-$d$ circuit computing the parity function has $2^{\Omega(n^{1/(d-1)})}$ gates. This parity barrier stood for decades: no explicit function was known to require depth-$d$ circuits of size $2^{\omega(n^{1/(d-1)})}$ for any constant $d$. OpenAI (2026) recently announced that they broke this barrier for depth-three circuits: they gave an explicit function in P that requires OR-AND-OR circuits of size $2^{\omega(\sqrt{n})}$.
   In this paper, we break the parity barrier at every constant depth with a simpler function. We prove that for every fixed $d \ge 3$, every depth-$d$ circuit computing the trilinear function $\sum_{i,j} a_{i+j} x_i y_j \bmod 2$ for $x,y \in \{0,1\}^n$ and $a \in \{0,1\}^{2n-1}$, requires $2^{\Omega((n\log n/\log\log n)^{1/(d-1)})}$ gates. Our proof combines the restriction lemma of OpenAI, for which we give a short new proof, with Håstad's switching lemma and the sparsification lemma of Calabro, Impagliazzo, and Paturi (2006).</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/248</guid>
+    </item>
+    <item>
+      <title>Simultaneous Competitive and Regret Guarantees for TCP Acknowledgment</title>
+      <link>https://arxiv.org/abs/2610.13571v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tsubasa+Harada" rel="noopener noreferrer"&gt;Tsubasa Harada&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Yasushi+Kawase" rel="noopener noreferrer"&gt;Yasushi Kawase&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Hanna+Sumita" rel="noopener noreferrer"&gt;Hanna Sumita&lt;/a&gt;&lt;/p&gt;We study simultaneous competitive and regret guarantees for TCP acknowledgment. Each acknowledgment serves all pending packets, and the objective is to minimize the total acknowledgment and waiting costs. It is well known that no deterministic online algorithm achieves a competitive ratio better than $2$. Given $k$ randomized online experts and $0&amp;lt;\varepsilon&amp;lt;1$, we construct a randomized online algorithm whose realized total cost is always at most $(2+\varepsilon)$ times the offline optimal cost $\mathrm{OPT}$ and whose expected regret against the expert with the smallest realized cost is $O(\sqrt{\mathrm{OPT}\log(k+1)}+\log(1/\varepsilon))$. The algorithm requires no advance knowledge of the number of packets or $\mathrm{OPT}$. Our algorithm controls switching costs between experts and uses the gap between the permitted competitive bound and its current cost to determine when to learn. We also prove lower bounds showing that, for $k\ge 2$, this regret bound is asymptotically optimal in $\mathrm{OPT}$, $k$, and $\varepsilon$, and that $\varepsilon&amp;gt;0$ is necessary for sublinear regret.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.13571v1</guid>
     </item>
     <item>
       <title>Breaking Two Barriers for Dynamic Planar Reachability</title>
