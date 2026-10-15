@@ -7,27 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 04:43:42 +0000</lastBuildDate>
-    <item>
-      <title>Faster Planar Graph Algorithms for Connectivity Problems via Meanders</title>
-      <link>https://arxiv.org/abs/2610.11944v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Susanna+Caroppo" rel="noopener noreferrer"&gt;Susanna Caroppo&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Giordano+Da+Lozzo" rel="noopener noreferrer"&gt;Giordano Da Lozzo&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Giuseppe+Di+Battista" rel="noopener noreferrer"&gt;Giuseppe Di Battista&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jevg%C4%93nijs+Vihrovs" rel="noopener noreferrer"&gt;Jevgēnijs Vihrovs&lt;/a&gt;&lt;/p&gt;In this paper, we refine the dynamic programming framework based on the sphere cut decomposition designed by Dorn, Penninkx, Bodlaender, and Fomin (ESA 2005) to obtain faster subexponential algorithms for connectivity problems on planar graphs. We investigate the relationship between these problems and meanders, which are simple closed planar loops that intersect a fixed line in a given number of points. By combining dynamic programming with techniques from meandric system analysis and the use of fast matrix multiplication by Dorn (ESA 2006), we obtain improved algorithms for planar connectivity problems.
-  We show that the number of meanders on $2n$ crossings $M_n$ is $\mathcal O^*(12.806^n)$, which improves the previous upper bound of $\mathcal O^*(12.901^n)$ by Albert and Paterson (FPSAC 2004). This then gives the best-known classical upper bounds on the deterministic time complexity of several planar graph problems with polynomially-bounded weights, namely $\mathcal O(2^{5.543\sqrt n})$ for the Planar Travelling Salesman problem, $\mathcal O(2^{5.796\sqrt n})$ for Planar Longest Cycle/Path, $\mathcal O(2^{8.251\sqrt n})$ for Planar Connected Dominating Set and $\mathcal O(2^{8.037\sqrt n})$ for Planar Steiner Tree. Notably, this leads to the best-known deterministic complexity $\mathcal O(2^{5.543\sqrt{n}})$ for the Planar Hamiltonian Cycle problem.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.11944v1</guid>
-    </item>
-    <item>
-      <title>Parallel Edge Ranking of Trees</title>
-      <link>https://arxiv.org/abs/2610.12438v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Jeff+Giliberti" rel="noopener noreferrer"&gt;Jeff Giliberti&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=MohammadTaghi+Hajiaghayi" rel="noopener noreferrer"&gt;MohammadTaghi Hajiaghayi&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Changki+Yun" rel="noopener noreferrer"&gt;Changki Yun&lt;/a&gt;&lt;/p&gt;In this work, we prove that computing the edge ranking of a tree in parallel is P-Complete. An optimal tree edge ranking assigns positive integer ranks to the edges such that any two edges with the same rank are separated by an edge of higher rank, while minimizing the highest rank. Tree edge ranking abstracts several classical problems such as parallel assembly in manufacturing, minimum-height dendrograms, reversible pebble game and edge-query binary search on trees. Its parallel complexity remained open for over thirty years, since the seminal work of de la Torre, Greenlaw, and Sch{ä}ffer [SODA'93], and was listed as an open problem in the book Limits to Parallel Computation by Greenlaw, Hoover, and Ruzzo [1995]. We prove that deciding whether a tree has edge ranking at most $K$ is P-Complete, already for trees of diameter six. Our reduction is from NOR-CVP and simulates a greedy procedure underlying known sequential approaches.
-  Despite ruling out NC algorithms, we prove that this hardness barrier can be bypassed in the well-known model of Massively Parallel Computation (MPC) with strongly sublinear local memory, showing that $O(\log n)$ MPC rounds suffice to solve the hard tree-edge ranking instances used to prove P-Completeness. Specifically, we present a deterministic MPC algorithm that computes an optimal edge ranking of an $n$-vertex tree of diameter $D$ in $O(\log D+\log\log n)$ rounds with $O(n^{3/4}D^{1/4})$ local memory. Our algorithm circumvents the linear-memory barrier by compressing the information required to produce a lexicographically minimal ranking from subtree merges. Overall, this result reinforces the strict separation between NC and what can be computed efficiently in MPC.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.12438v1</guid>
-    </item>
-    <item>
-      <title>$Ω((\log n/\log\log n)^2)$ Lower Bounds for Dynamic Graph Problems</title>
-      <link>https://arxiv.org/abs/2610.10904v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Young+Kun+Ko" rel="noopener noreferrer"&gt;Young Kun Ko&lt;/a&gt;&lt;/p&gt;We prove an $Ω((\log n/\log\log n)^2)$ unconditional lower bound on the maximum of the query time and update time for dynamic data structures supporting reachability queries in $n$-node directed acyclic graphs under edge insertions. This improves the $\widetildeΩ(\log^{3/2} n)$ lower bound of Larsen and Yu [SICOMP 2025], and matches the strongest lower bound known for any dynamic problem. The same bound holds for incremental undirected shortest paths and subgraph connectivity. To prove it, we bring the recent framework of Ko [FOCS 2026], which gave this bound for Pătraşcu's multiphase problem with Inner Product, to the multiphase problem with Disjointness. Our main technical contribution is to show that verification in Ko's 2.5-round multiphase communication game makes a one-sided corruption bound suffice in place of discrepancy, which Disjointness lacks.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.10904v1</guid>
-    </item>
+    <lastBuildDate>Thu, 15 Oct 2026 09:58:17 +0000</lastBuildDate>
     <item>
       <title>TR26-244 |  ?((log n/log log n)²) Lower Bounds for Dynamic Graph Problems | 
 
@@ -407,6 +387,18 @@ incentives. &lt;a href="https://minorfree.github.io/Clement/#fnref:6" rel="noop
   - Surprisingly, we show that it is #P-hard to compute the probability that an input graph contains a source-to-target path/walk of length exactly $\ell$, even on graphs of pathwidth $2$. By contrast, all our problems are tractable on graphs of treewidth $1$.
   - Last, we investigate the complexity of our problems when the edges can carry weights. This causes all our problems to become #P-hard already on pathwidth-2 graphs, and causes specifically the ``exactly $\ell$'' walk problem to be #P-hard even on pathwidth-1 graphs.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2610.17887v1</guid>
+    </item>
+    <item>
+      <title>TR26-254 |  Parameterized Uniformity Testing in the Huge Object Model | 
+
+	Clément Canonne, 
+
+	Sayantan Sen, 
+
+	Joy Qiping Yang</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/254</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;We continue the study of distribution testing in the Huge Object Model (Goldreich and Ron, 2023), focusing on the flagship question of \emph{parameterized uniformity testing}: given access to data in $\{0,1\}^n$, is its underlying probability distribution uniform on a small subset of size $m$? The focus here is on both the number of data points required (sample complexity) and the number of bits from these data points one needs to observe (query complexity). While previous work fully characterized both of these in the ``tiny support'' regime $m \ll n$, very little was understood in the ``medium-to-large'' support one ($n \leq m \ll 2^n$). Our work remedies this state of affairs, establishing the existence of a sample-query complexity tradeoff and showing that (in contrast to the tiny-support regime) adaptive algorithms can significantly outperform non-adaptive ones.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/254</guid>
     </item>
   </channel>
 </rss>
