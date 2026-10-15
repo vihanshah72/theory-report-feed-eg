@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 23:56:21 +0000</lastBuildDate>
-    <item>
-      <title>Efficient Recovery of Latent Coordinate Structure from Sparse Observations of the Hypercube</title>
-      <link>https://arxiv.org/abs/2610.11741v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: minimum cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Rares-Darius+Buhai" rel="noopener noreferrer"&gt;Rares-Darius Buhai&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Davide+Mazzali" rel="noopener noreferrer"&gt;Davide Mazzali&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Weronika+Wrzos-Kaminska" rel="noopener noreferrer"&gt;Weronika Wrzos-Kaminska&lt;/a&gt;&lt;/p&gt;Recovering latent geometric structure from graph observations is a well-studied problem in statistical inference. Kapralov, Trevisan, and Wrzos-Kaminska (2026) introduced the problem of recovering the coordinate structure of the Boolean hypercube from a small random sample of its edges. More specifically, there are $n=2^d$ vertices, each corresponding to a distinct "feature" vector in $\{\pm 1\}^d$. Between each pair whose feature vectors are at Hamming distance one, an edge is observed independently with probability $p$. As long as the expected degree $pd$ is $\gtrsim \log d = \log \log n$, we give a polynomial-time algorithm that, given only the graph of observed edges, correctly recovers the entire feature vector of all but a vanishing fraction of vertices. This matches the information-theoretic guarantee of Kapralov, Trevisan, and Wrzos-Kaminska in polynomial rather than exponential time, resolving the algorithmic question left open by their work.
-  Our algorithm combines a degree-$4$ sum-of-squares certificate for the structure of balanced near-minimum cuts with a rounding scheme originally developed for tensor decomposition by Ma, Shi, and Steurer (2016). The analysis relies on two novel ingredients: a sum-of-squares version of the Friedgut-Kalai-Naor theorem in Boolean Fourier analysis and a spectral concentration result for the observed subgraph of the hypercube. Finally, we provide a justification for why higher-degree sum-of-squares might be needed by showing a limitation of the basic SDP relaxation of this problem.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.11741v1</guid>
-    </item>
+    <lastBuildDate>Thu, 15 Oct 2026 04:43:42 +0000</lastBuildDate>
     <item>
       <title>Faster Planar Graph Algorithms for Connectivity Problems via Meanders</title>
       <link>https://arxiv.org/abs/2610.11944v1</link>
