@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:12:47 +0000</lastBuildDate>
-    <item>
-      <title>TR26-248 |  Breaking the Parity Barrier for Constant-Depth Circuits | 
-
-	Nikolai Chukhin</title>
-      <link>https://eccc.weizmann.ac.il/report/2026/248</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sparsification&lt;/p&gt;A constant-depth circuit consists of AND and OR gates of unbounded fan-in, arranged in a constant number of layers, that read the input literals; for example, a depth-three circuit is an OR of CNFs or an AND of DNFs. The classical lower bound of Håstad (1989) states that every depth-$d$ circuit computing the parity function has $2^{\Omega(n^{1/(d-1)})}$ gates. This parity barrier stood for decades: no explicit function was known to require depth-$d$ circuits of size $2^{\omega(n^{1/(d-1)})}$ for any constant $d$. OpenAI (2026) recently announced that they broke this barrier for depth-three circuits: they gave an explicit function in P that requires OR-AND-OR circuits of size $2^{\omega(\sqrt{n})}$.
-  In this paper, we break the parity barrier at every constant depth with a simpler function. We prove that for every fixed $d \ge 3$, every depth-$d$ circuit computing the trilinear function $\sum_{i,j} a_{i+j} x_i y_j \bmod 2$ for $x,y \in \{0,1\}^n$ and $a \in \{0,1\}^{2n-1}$, requires $2^{\Omega((n\log n/\log\log n)^{1/(d-1)})}$ gates. Our proof combines the restriction lemma of OpenAI, for which we give a short new proof, with Håstad's switching lemma and the sparsification lemma of Calabro, Impagliazzo, and Paturi (2006).</description>
-      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/248</guid>
-    </item>
-    <item>
-      <title>Simultaneous Competitive and Regret Guarantees for TCP Acknowledgment</title>
-      <link>https://arxiv.org/abs/2610.13571v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tsubasa+Harada" rel="noopener noreferrer"&gt;Tsubasa Harada&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Yasushi+Kawase" rel="noopener noreferrer"&gt;Yasushi Kawase&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Hanna+Sumita" rel="noopener noreferrer"&gt;Hanna Sumita&lt;/a&gt;&lt;/p&gt;We study simultaneous competitive and regret guarantees for TCP acknowledgment. Each acknowledgment serves all pending packets, and the objective is to minimize the total acknowledgment and waiting costs. It is well known that no deterministic online algorithm achieves a competitive ratio better than $2$. Given $k$ randomized online experts and $0&amp;lt;\varepsilon&amp;lt;1$, we construct a randomized online algorithm whose realized total cost is always at most $(2+\varepsilon)$ times the offline optimal cost $\mathrm{OPT}$ and whose expected regret against the expert with the smallest realized cost is $O(\sqrt{\mathrm{OPT}\log(k+1)}+\log(1/\varepsilon))$. The algorithm requires no advance knowledge of the number of packets or $\mathrm{OPT}$. Our algorithm controls switching costs between experts and uses the gap between the permitted competitive bound and its current cost to determine when to learn. We also prove lower bounds showing that, for $k\ge 2$, this regret bound is asymptotically optimal in $\mathrm{OPT}$, $k$, and $\varepsilon$, and that $\varepsilon&amp;gt;0$ is necessary for sublinear regret.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.13571v1</guid>
-    </item>
+    <lastBuildDate>Fri, 16 Oct 2026 12:28:22 +0000</lastBuildDate>
     <item>
       <title>Breaking Two Barriers for Dynamic Planar Reachability</title>
       <link>https://arxiv.org/abs/2610.13473v1</link>
@@ -149,6 +134,16 @@
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/254</guid>
     </item>
     <item>
+      <title>Tree Edit Distance: Near-Linear-Time Approximate, Sublinear, and Dynamic</title>
+      <link>https://arxiv.org/abs/2610.22250v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Bingbing+Hu" rel="noopener noreferrer"&gt;Bingbing Hu&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Tomasz+Kociumaka" rel="noopener noreferrer"&gt;Tomasz Kociumaka&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jakob+Nogler" rel="noopener noreferrer"&gt;Jakob Nogler&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Barna+Saha" rel="noopener noreferrer"&gt;Barna Saha&lt;/a&gt;&lt;/p&gt;Tree edit distance (TED), the analog of string edit distance (ED) for hierarchical data, is the minimum number of node insertions, deletions, and substitutions transforming one labeled rooted ordered tree into another. We narrow polynomial gaps between TED and ED in near-linear-time approximation, sublinear algorithms, and dynamic algorithms.
+  We give an $n^{o(1)}$-approximation in $O(n)$ time and, for every $0&amp;lt;δ&amp;lt;1$, a $(\log n)^{O(1/δ)}$-approximation in $O(n^{1+δ})$ time. This improves the previous near-linear-time $O(\sqrt n)$-approximation [Boroujeni et al., STOC'19] and brings TED to parity with ED in this regime up to polylogarithmic factors.
+  With query access to the balanced-parentheses (Euler-tour) representation of the input trees, we give the first sublinear-time TED algorithm: for every $τ\in[1,n]$, it computes a $τn^{o(1)}$-approximation of $1+\mathrm{ted}$ in $O(n/τ)$ time.
+  For dynamic TED, we give an exact algorithm with amortized update time $\tilde{O}(k^7)$ and a $(1+\varepsilon)$-approximation with amortized update time $\tilde{O}_{\varepsilon}(k)$, where $k$ caps the distance that must be reported. The exact algorithm is the first to beat recomputation in a nontrivial parameter regime. The approximation improves prior dynamic guarantees [Das et al., FOCS'25] and cannot be significantly improved in any parameter regime without a breakthrough for static $(1+\varepsilon)$-approximation of ED.
+  All results use dynamic programming on a new hierarchical tree decomposition, analogous to partitioning strings into blocks of geometrically decreasing sizes. It combines structural properties previously achieved only in isolation, providing a framework for transferring algorithmic ideas from ED to TED, with additional ingredients addressing the obstacles in each computational setting.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.22250v1</guid>
+    </item>
+    <item>
       <title>Tolerant Testers for Subgraph-Freeness</title>
       <link>https://arxiv.org/abs/2610.20813v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Reut+Levi" rel="noopener noreferrer"&gt;Reut Levi&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Jonathan+Meiri" rel="noopener noreferrer"&gt;Jonathan Meiri&lt;/a&gt;&lt;/p&gt;In this paper we study the problem of tolerantly testing the property of being $H$-free (which also implies distance approximation from being $H$-free). In the general-graphs model, we show that tolerant $K_k$-freeness testing can be achieved with query complexity that is polynomial in the arboricity of the input graph $G$, $arb(G)$, and independent of the size of $G$ (for graphs in which the average degree is $Ω(1))$.
@@ -169,6 +164,12 @@
   Previously, algorithms for maintaining the vertex connectivity with $o(n)$ time per edge insertion were only known for $κ\le 2$, and need $\tilde{O}(\log^2 n)$ and $O(\sqrt{n})$ time per edge insertion for $κ= 1,2$, respectively. Moreover, for $κ&amp;gt; 4$, no algorithm faster than recomputation from scratch was known.
   We complement our algorithm with a conditional lower bound: Under the OMv conjecture, any insertions-only algorithm that outputs the current value of $κ$ after every insertion needs $Ω(n^{1-\varepsilon})$ amortized time per edge insertion for $κ= Θ(n)$. Previous conditional lower bounds for this problem only apply to worst case running time, or algorithms that support both edge insertions and edge deletions.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2610.21531v1</guid>
+    </item>
+    <item>
+      <title>The Six-Dimensional Tarski Problem is $Ω(\log^3 n)$-Hard</title>
+      <link>https://arxiv.org/abs/2610.21785v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Krist%C3%B3f+Z%C3%B3lomy" rel="noopener noreferrer"&gt;Kristóf Zólomy&lt;/a&gt;&lt;/p&gt;We study the deterministic query complexity of finding a fixed point of a monotone function $f:[n]^d\to[n]^d$, where querying $x$ returns $f(x)$. For fixed $d\ge2$, earlier work established a lower bound of $Ω((\log n)^2)$ and an upper bound of $O_d((\log n)^{\lceil(d+2)/3\rceil})$ for the query complexity. Very recently, several papers obtained improved lower bounds using AI-assisted proofs. In this paper, we further improve these lower bounds to $\text{Tarski}(n,d)=Ω_d((\log n)^{2+\lfloor\log_3(d/2)\rfloor})$. In particular, we obtain the optimal $Θ((\log n)^3)$ deterministic query complexity in six dimensions.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.21785v1</guid>
     </item>
   </channel>
 </rss>
