@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 10:14:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 15:20:31 +0000</lastBuildDate>
     <item>
       <title>TR26-254 |  Parameterized Uniformity Testing in the Huge Object Model | 
 
@@ -160,6 +160,23 @@ In this work, we nearly close the gap, by showing that testing $\text{ResStringE
       <link>https://arxiv.org/abs/2610.29066v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Inhyuk+Park" rel="noopener noreferrer"&gt;Inhyuk Park&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Chenglin+Fan" rel="noopener noreferrer"&gt;Chenglin Fan&lt;/a&gt;&lt;/p&gt;We show that for all polynomials $T$ and $b$, every relation in NTIME($T$) has a binary PCP with $O(1)$ non-adaptive queries, perfect completeness, soundness error 1/2 and length $(T+b)\cdot(\log(T+b))^{O(1)}$, which is perfect zero knowledge against every adaptive, possibly malicious verifier making at most $b$ queries. This improves the length $\tilde O(T+b^2)$ of Zeilberger, O'Connor, Gur and Spooner (2026), who observed that Dinur's gap amplification preserves zero knowledge. The simulator runs in expected polynomial time (or in strict polynomial time, with a failure symbol or with negligible statistical error). For $b\le T$ the length is $T\cdot\mathrm{polylog}\,T$, the form of the shortest known constant-query PCPs without zero knowledge. Unless NP $\subseteq$ BPP, the dependence on $b$ is optimal up to the polylogarithmic factor for polynomial-time simulators: zero knowledge is free up to linear query bounds. Zero-knowledge interactive oracle proofs achieved length $\tilde O(T+b)$ in 2016-17; we obtain it for PCPs. Gur, O'Connor and Spooner (STOC 2025) asked whether NP has such PCPs of quasilinear length (their Open Problem 1). This paper answers it for every polynomial query bound, with the simulators above in place of a strict polynomial-time perfect simulator. The proofs were developed with extensive AI assistance and have been checked by the authors. We mask the Reed-Solomon proof of proximity of Ben-Sasson and Sudan at every node of its recursion. By a locator lemma, at every node, whatever $k$ of its proof symbols reveal about its input is determined by $O(k)$ input values. We prove it with the coprime-order argument of Bafna and Vyas (2026); our treatment of domain points is new. Dinur's gap amplification gives constant query complexity. The query count and the polylogarithmic exponent are absolute but very large.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2610.29066v1</guid>
+    </item>
+    <item>
+      <title>TR26-268 |  A Linear Lower Bound on Testing Graph Isomorphism in the Bounded-Degree Model | 
+
+	Amit Dror</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/268</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;We prove a linear query complexity lower bound for two-sided testing of graph isomorphism in the bounded-degree model. 
+Specifically, there are constants $d$ and $\varepsilon_0$ such that, for every sufficiently large $n$, 
+there exists an $n$-vertex graph $H_n$ of maximum degree at most $d$ such that testing isomorphism to $H_n$ requires $\Omega(n)$ queries.
+
+The proof proceeds by a reduction from testing the solvability of a fixed sparse system of linear equations
+over $\mathcal{F}_2$. Given a fixed matrix $A$ and an input vector $b$, we associate $b$ with a graph $G_b$
+such that $G_b$ is isomorphic to $G_0$ whenever $Ax=b$ has a solution.
+We show that each query to the graph can be emulated with at most one query to $b$, and that Hamming distance from
+$Im(A)$ translates to the distance of $G_b$ from $G_0$. The main result then follows from a
+linear query lower bound for testing the solvability of the underlying (sparse) linear system.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/268</guid>
     </item>
   </channel>
 </rss>
