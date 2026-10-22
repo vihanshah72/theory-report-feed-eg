@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 04:52:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:14:14 +0000</lastBuildDate>
     <item>
       <title>TR26-254 |  Parameterized Uniformity Testing in the Huge Object Model | 
 
@@ -139,13 +139,6 @@ queries. This improves on the $\Omega(\log n)$ lower bound of Goldreich and Taub
 
 In this work, we nearly close the gap, by showing that testing $\text{ResStringEq}$, and hence $\text{Dyck}_m$ (for any $m\geq 2$), requires $\Omega(n^{2/5})$ queries. We also show a stronger lower bound of $\Omega(\sqrt{n})$ for testers that make non-adaptive queries. We establish that the $\Omega(\sqrt{n})$ bound is nearly tight, by presenting a non-adaptive tester for $\text{ResStringEq}$ that uses $O(n^{1/2+\delta})$ queries for an arbitrarily small constant $\delta&amp;gt;0$. Furthermore, we extend this non-adaptive tester to the $\text{Dyck}$ languages, with the same query complexity. Finally, we improve the dependence on the proximity parameter $\epsilon$ in the tester of Fischer, Magniez, and Starikovskaya, reducing it from $O(1/\epsilon)^{\mathrm{poly}(1/\delta)}$ to $O(1/\epsilon)^{O(\log(1/\delta))}$.</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/265</guid>
-    </item>
-    <item>
-      <title>Optimal Algorithms and Hardness for Max-Cut in Bounded Degree Graphs</title>
-      <link>https://arxiv.org/abs/2610.27216v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: max-cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Rares-Darius+Buhai" rel="noopener noreferrer"&gt;Rares-Darius Buhai&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Suprovat+Ghoshal" rel="noopener noreferrer"&gt;Suprovat Ghoshal&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Pravesh+Kothari" rel="noopener noreferrer"&gt;Pravesh Kothari&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Euiwoong+Lee" rel="noopener noreferrer"&gt;Euiwoong Lee&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Konstantin+Makarychev" rel="noopener noreferrer"&gt;Konstantin Makarychev&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Yury+Makarychev" rel="noopener noreferrer"&gt;Yury Makarychev&lt;/a&gt;&lt;/p&gt;We give a polynomial-time algorithm that achieves an $α_{GW} + \tildeΩ(1/d)$-approximation for Max 2-LIN(2) in weighted instances where each vertex appears in at most $d$ constraints. This improves on the $α_{GW}+\tildeΩ(1/d^2)$-approximation guarantee of [Hsieh-Kothari, ICALP'23]. We also show a matching Unique Games hardness under randomized polynomial-time reductions, thereby proving that the gain on $α_{GW}$ is optimal up to $\mathrm{polylog}(d)$ factors. Here, $α_{GW} \approx 0.878$ is the approximation ratio of the Goemans-Williamson algorithm. Our results resolve an open question due to Raghavendra and refute his conjectured optimal approximation ratio of $α_{GW} + \tildeΩ(1/\sqrt{d})$.
-  Our local improvement scheme can be thought of as using an adaptive (based on the neighbors) shift applied to the Gaussian before using the GW sign rounding. This allows us to implement a ``soft but simultaneous'' flipping decision at each vertex as opposed to hard but sequential flipping decisions in prior works. Our hardness results are based on a new sparsification lemma for graphs produced by the reduction from Unique Games [Khot-Kindler-Mossel-O'Donnell, SICOMP'07] that preserves the optimal values up to a factor of $1 \pm ε$ while subsampling to an average degree of only $\tilde{O}(1/ε)$. This is the first example of a CSP in which the optimal advantage on degree-$d$ instances is asymptotically smaller than $O(1/\sqrt{d})$ [Trevisan, STOC'01]. A key idea in the proof of our sparsification theorem establishes new bounds on the number of ``nearly optimal'' cuts in the output of the KKMO reduction. This step, in turn, relies on a new, robust inverse Majority-Is-Stablest theorem.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.27216v1</guid>
     </item>
     <item>
       <title>A 2/3-Approximation Algorithm for the Residual Maximum Matching Problem in General Graphs</title>
