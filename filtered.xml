@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 15:20:31 +0000</lastBuildDate>
-    <item>
-      <title>TR26-254 |  Parameterized Uniformity Testing in the Huge Object Model | 
-
-	Clément Canonne, 
-
-	Sayantan Sen, 
-
-	Joy Qiping Yang</title>
-      <link>https://eccc.weizmann.ac.il/report/2026/254</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;We continue the study of distribution testing in the Huge Object Model (Goldreich and Ron, 2023), focusing on the flagship question of \emph{parameterized uniformity testing}: given access to data in $\{0,1\}^n$, is its underlying probability distribution uniform on a small subset of size $m$? The focus here is on both the number of data points required (sample complexity) and the number of bits from these data points one needs to observe (query complexity). While previous work fully characterized both of these in the ``tiny support'' regime $m \ll n$, very little was understood in the ``medium-to-large'' support one ($n \leq m \ll 2^n$). Our work remedies this state of affairs, establishing the existence of a sample-query complexity tradeoff and showing that (in contrast to the tiny-support regime) adaptive algorithms can significantly outperform non-adaptive ones.</description>
-      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/254</guid>
-    </item>
+    <lastBuildDate>Thu, 22 Oct 2026 20:09:04 +0000</lastBuildDate>
     <item>
       <title>Tree Edit Distance: Near-Linear-Time Approximate, Sublinear, and Dynamic</title>
       <link>https://arxiv.org/abs/2610.22250v1</link>
