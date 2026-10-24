@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 16:36:37 +0000</lastBuildDate>
-    <item>
-      <title>The Six-Dimensional Tarski Problem is $Ω(\log^3 n)$-Hard</title>
-      <link>https://arxiv.org/abs/2610.21785v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Krist%C3%B3f+Z%C3%B3lomy" rel="noopener noreferrer"&gt;Kristóf Zólomy&lt;/a&gt;&lt;/p&gt;We study the deterministic query complexity of finding a fixed point of a monotone function $f:[n]^d\to[n]^d$, where querying $x$ returns $f(x)$. For fixed $d\ge2$, earlier work established a lower bound of $Ω((\log n)^2)$ and an upper bound of $O_d((\log n)^{\lceil(d+2)/3\rceil})$ for the query complexity. Very recently, several papers obtained improved lower bounds using AI-assisted proofs. In this paper, we further improve these lower bounds to $\text{Tarski}(n,d)=Ω_d((\log n)^{2+\lfloor\log_3(d/2)\rfloor})$. In particular, we obtain the optimal $Θ((\log n)^3)$ deterministic query complexity in six dimensions.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.21785v1</guid>
-    </item>
+    <lastBuildDate>Sat, 24 Oct 2026 19:30:29 +0000</lastBuildDate>
     <item>
       <title>Improved Pass Complexity for Semi-Streaming Matching in General Graphs via Budgeted Price Approach</title>
       <link>https://arxiv.org/abs/2610.22718v1</link>
