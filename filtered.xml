@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 06:19:14 +0000</lastBuildDate>
-    <item>
-      <title>Peak-Memory Schedules You Can Trust: Exact Realization, Certified Optimality, and the Limits of Recomputation for Inference</title>
-      <link>https://arxiv.org/abs/2610.23328v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: minimum cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Ivan+Fomin" rel="noopener noreferrer"&gt;Ivan Fomin&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Ivan+Koryabkin" rel="noopener noreferrer"&gt;Ivan Koryabkin&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Boris+Sheludko" rel="noopener noreferrer"&gt;Boris Sheludko&lt;/a&gt;&lt;/p&gt;Real-time inference on small devices needs low activation memory without extra latency, which makes operator order the most valuable memory lever: it is free in time. We show that the usual way of deploying a better order, handing it back to the compiler and regenerating code, is unreliable. In PyTorch Inductor the regenerated program misses its predicted peak in 22 of 54 CPU configurations. It is worse than the stock program in 9 of them and in 19 of 50 on a GPU, and on the GPU it also changes numerical results. We instead profile the generated program, model its memory exactly from its own statements and their read/write effects, and permute those statements. We prove that this realizes the modeled peak whenever allocation does not depend on history. It does so to the byte, with bitwise-identical results, in all our CPU runs. On the GPU we characterize why the caching allocator breaks the condition. To know when to stop, we give forward and reverse "trap" lower bounds, each computable with $O(n^2)$ minimum cuts. They certify the found order optimal for 94% of held-out wrapper graphs and all 16 microcontroller-class models we study, in under a second. So most inference graphs are already scheduled optimally. Branching networks are the exception, where reordering is free and pays, e.g. 10.0% on DeepLabV3. In compiled training we save up to 7.6%. Beyond the certified optimum we study selective recomputation with per-operator caps. It is strongly NP-hard for every fixed cap even at treewidth two, encodes knapsack exactly on series-parallel graphs, and is solvable exactly on bounded treewidth. It is useless on public tiny models whose peak is a single layer, but on architectures that hold a cheap value for a late reuse it pays: on the public ReDimNet speaker networks, whose order is already optimal, it lowers the peak by 5.2-6.1% at under 0.4% extra MACs, with bitwise-identical outputs.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.23328v1</guid>
-    </item>
-    <item>
-      <title>Deterministic Global Minimum Cut Using $\tilde{O}(n^{3/2})$ Cut Queries</title>
-      <link>https://arxiv.org/abs/2610.23461v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: minimum cut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Yotam+Kenneth-Mordoch" rel="noopener noreferrer"&gt;Yotam Kenneth-Mordoch&lt;/a&gt;&lt;/p&gt;Finding a global minimum cut in an unweighted graph is a fundamental task in the cut-query model. While there exists a randomized algorithm for this task using $\tilde O(n)$ queries, known deterministic algorithms use $\tilde{O}(n^{5/3})$ queries. We improve upon this result and give a simple deterministic algorithm that finds a global minimum cut using $\tilde O(\min\left\{ nδ,n^2/δ\right\})$ cut queries, which equals $\tilde{O}(n^{3/2})$ in the worst case, where $δ$ is the minimum degree of the graph. The key ingredient in our approach is an efficient maximum $s,t$-flow algorithm, for the case when the minimum $s,t$-cut has value at most $δ$.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.23461v1</guid>
-    </item>
+    <lastBuildDate>Mon, 26 Oct 2026 14:18:15 +0000</lastBuildDate>
     <item>
       <title>Online Graph Coloring with Random Arrivals</title>
       <link>https://arxiv.org/abs/2610.23824v1</link>
@@ -160,6 +148,12 @@ For constant error probability, we also prove that any $r$-round protocol requir
 
 Our lower bounds can be extended to other fundamental graph properties, and also imply optimality of known query and streaming algorithms for related problems.</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/269</guid>
+    </item>
+    <item>
+      <title>Deterministic Incremental Triconnectivity in $O(\log^2 n)$ Worst-Case Time</title>
+      <link>https://arxiv.org/abs/2610.32721v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: connectivity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Niels+Inselmann+Christiansen" rel="noopener noreferrer"&gt;Niels Inselmann Christiansen&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Eva+Rotenberg" rel="noopener noreferrer"&gt;Eva Rotenberg&lt;/a&gt;&lt;/p&gt;We consider the problem of maintaining the triconnectivity in some biconnected graph G in the incremental dynamic setting. We consider updates in the form of edge insertions and edge subdivisions, and triconnectivity queries, i.e. queries of the form "are there at least three vertex disjoint paths between a and b?". All algorithms presented in this paper are deterministic. All queries and updates are answered in worst-case $O(\log n)$ time. By combining this result for biconnected graphs with a result of Holm and Rotenberg [SODA'20] we get an algorithm for general graphs with a worst-case running time of $O(\log^2 n)$ per operation. These algorithms represent an improvement of the state-of-the-art by a factor of $O(\log n)$.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.32721v1</guid>
     </item>
     <item>
       <title>Settling Nondeterministic Communication Complexity of Graph Connectivity</title>
