@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 01:13:24 +0000</lastBuildDate>
-    <item>
-      <title>Improved Pass Complexity for Semi-Streaming Matching in General Graphs via Budgeted Price Approach</title>
-      <link>https://arxiv.org/abs/2610.22718v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Tatsuya+Terao" rel="noopener noreferrer"&gt;Tatsuya Terao&lt;/a&gt;&lt;/p&gt;We present a simple deterministic semi-streaming algorithm that computes a $(1-\varepsilon)$-approximate maximum matching in general graphs in $O(1/\varepsilon^{2})$ passes. This matches the pass complexity of the auction algorithm of Assadi, Liu, and Tarjan~[SOSA'21] for bipartite graphs, and answers Open Question~2 of Assadi~[SOSA'24 \&amp;amp; TheoretiCS'25].
-  Our approach, which we call the \emph{budgeted price approach}, is very different from the previous $\mathrm{poly}(1/\varepsilon)$-pass semi-streaming algorithms for $(1-\varepsilon)$-approximation of matching in general graphs and improves their pass complexity. All previous approaches are augmenting-path-based and use $O(1/\varepsilon^{19})$ passes by Fischer, Mitrović, and Uitto~[STOC'22], $O(1/\varepsilon^{6})$ passes by Mitrović, Mukherjee, Sankowski, and Sheu~[ICALP'25], and $O(1/\varepsilon^{4})$ passes by Izumi, Kitamura, and Yamaguchi~['25].</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.22718v1</guid>
-    </item>
+    <lastBuildDate>Mon, 26 Oct 2026 06:19:14 +0000</lastBuildDate>
     <item>
       <title>Peak-Memory Schedules You Can Trust: Exact Realization, Certified Optimality, and the Limits of Recomputation for Inference</title>
       <link>https://arxiv.org/abs/2610.23328v1</link>
@@ -142,6 +135,12 @@ linear query lower bound for testing the solvability of the underlying (sparse) 
       <guid isPermaLink="false">http://arxiv.org/abs/2610.31263v1</guid>
     </item>
     <item>
+      <title>Two-colour crossing minimization in complete geometric graphs is NP-hard</title>
+      <link>https://arxiv.org/abs/2610.31719v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: maxcut&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Zhe+Zhang" rel="noopener noreferrer"&gt;Zhe Zhang&lt;/a&gt;&lt;/p&gt;Given a fixed straight-line drawing of a complete graph, we seek a two-colouring of its edges that minimizes the number of monochromatic crossing pairs. We prove that the threshold decision problem is NP-complete, even when the vertices are in general position and have integer coordinates of polynomial binary length. Thus exact minimization is NP-hard, answering the complexity question posed at the Crossing Number Workshop in 2019. The reduction is from MaxCut on permutation graphs. Its main difficulty is to control the edges required by completeness, whose colours must remain free. We construct a large comparison grid with two stable colour phases and use additional points to assign costs to the edges that encode the source graph. A geometric separation eliminates one large class of unwanted crossings. The costs of all remaining edges are included in a computable baseline and bounded errors, with each unit of the source objective amplified beyond the total error. The construction is deterministic and has polynomial size and coordinate bit length.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.31719v1</guid>
+    </item>
+    <item>
       <title>No Perfect Randomized Composition</title>
       <link>https://arxiv.org/abs/2610.31638v1</link>
       <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Alexander+Meiburg" rel="noopener noreferrer"&gt;Alexander Meiburg&lt;/a&gt;&lt;/p&gt;Does computing a composition of total Boolean functions require the product of the randomized query complexities of its factors? We give a negative answer. There are families of total functions $f,g$ such that $R(f\circ g) =Θ\!\left(\frac1{\log R(g)}\right)R(f)R(g)$ This result requires first separating linearized query complexity $\LR$, as well as noisy randomized query complexity $noisyR$, from standard randomized query complexity $R$. Both constructions essentially come from totalizing existing partial function separations, albeit via different techniques.
@@ -161,6 +160,15 @@ For constant error probability, we also prove that any $r$-round protocol requir
 
 Our lower bounds can be extended to other fundamental graph properties, and also imply optimality of known query and streaming algorithms for related problems.</description>
       <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/269</guid>
+    </item>
+    <item>
+      <title>Settling Nondeterministic Communication Complexity of Graph Connectivity</title>
+      <link>https://arxiv.org/abs/2610.32346v1</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: streaming algorithm&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Zhijun+Zhang" rel="noopener noreferrer"&gt;Zhijun Zhang&lt;/a&gt;&lt;/p&gt;Determining the communication complexity of graph connectivity has been one of the longest standing open problems in communication complexity since the seminal work of Babai, Frankl, and Simon [FOCS'86]. A simple protocol transmits a spanning forest using $O(N\log N)$ communication on $N$-vertex graphs. While this was shown optimal for deterministic protocols by Hajnal, Maass, and Turán [STOC'88], the optimal nondeterministic and randomized complexities have remained unresolved for decades.
+  We settle the nondeterministic communication complexity of graph connectivity by proving an optimal $Ω(N\log N)$ lower bound. The best prior bound was $Ω(N\log\log N)$ due to Raz and Spieker [Combinatorica'95]. Our bound is shown by upper bounding the maximum size of $1$-monochromatic rectangles. Generalizing our techniques to weighted, almost $1$-monochromatic rectangles yields an $Ω(N \cdot \log(\min(1/\varepsilon,N)))$ lower bound for randomized protocols with error probability $\varepsilon$. In particular, this bound is optimal for any polynomially small $\varepsilon$.
+  For constant error probability, we also prove that any $r$-round protocol requires $Ω(N/r \cdot \log N)$ communication, which is optimal for every constant $r$. Previously, optimal $Ω(N\log N)$ lower bounds for graph connectivity were known only for $1$-round [Sun, Woodruff; APPROX/RANDOM'15] and $2$-round protocols [Radhakrishnan, Reddy, Venkat; ITCS'26]. Our proof introduces a new communication problem which can be viewed as a composition of inner product and pointer chasing problems.
+  Our lower bounds can be extended to other fundamental graph properties, and also imply optimality of known query and streaming algorithms for related problems.</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.32346v1</guid>
     </item>
   </channel>
 </rss>
