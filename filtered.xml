@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 14:18:15 +0000</lastBuildDate>
-    <item>
-      <title>Online Graph Coloring with Random Arrivals</title>
-      <link>https://arxiv.org/abs/2610.23824v1</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: graph coloring&lt;/p&gt;&lt;p class="arxiv-authors"&gt;&lt;b&gt;Authors:&lt;/b&gt; &lt;a href="https://dblp.uni-trier.de/search?q=Hirotaka+Yoneda" rel="noopener noreferrer"&gt;Hirotaka Yoneda&lt;/a&gt;, &lt;a href="https://dblp.uni-trier.de/search?q=Masataka+Yoneda" rel="noopener noreferrer"&gt;Masataka Yoneda&lt;/a&gt;&lt;/p&gt;We study online graph coloring in the random-arrival model, where the vertices are presented in a uniformly random order. Assuming $n$ and $k$ are known in advance, we present a randomized exponential-time algorithm that colors any $k$-colorable graph on $n$ vertices with $O(k^3 \log^2 k \log^4 n)$ colors in expectation. This is the first online coloring algorithm that uses a polylogarithmic number of colors for all fixed $k \geq 3$, and is better than a known lower bound of $Ω(\log^{k-1} n)$ colors under adversarial arrivals for all fixed $k \geq 6$.
-  In addition, assuming $n$ is known in advance, we obtain a competitive ratio of $\widetilde{O}(n^{2/3})$. For comparison, it is known to be NP-hard to approximate (offline) graph coloring within a factor of $n^{1-\varepsilon}$ for all fixed $\varepsilon &amp;gt; 0$. Therefore, our exponential-time online algorithm achieves a performance guarantee beyond the NP-hardness threshold for polynomial-time approximation algorithms.</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2610.23824v1</guid>
-    </item>
+    <lastBuildDate>Mon, 26 Oct 2026 20:30:44 +0000</lastBuildDate>
     <item>
       <title>Constructive Arithmetic Regularity for Abelian Groups</title>
       <link>https://arxiv.org/abs/2610.26368v1</link>
