@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 08:32:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:09:50 +0000</lastBuildDate>
     <item>
       <title>TR26-264 |  On Testing Finite Groups | 
 
@@ -148,6 +148,38 @@ Our lower bounds can be extended to other fundamental graph properties, and also
   Prior to our result, such tradeoffs were proven only conditioned on a certain combinatorial assumption about the density of Ruzsa-Szemerédi graphs. The state-of-the-art unconditional lower bound rules out any approximation factor better than $(8/9)$ in two passes but leaves open the possibility of a $(1-\varepsilon)$-approximation for any $\varepsilon &amp;gt; 0$ even in three passes.
   We provide two different proofs of our result: the first proof uses the recent hierarchical-embedding framework of Assadi, Konrad, Naidu, and Sundaresan (STOC 2024) along with combinatorial constructions using Ruzsa-Szemerédi graphs. The second extends the two-level Ruzsa-Szemerédi hierarchy of Konrad and Naidu (SODA 2024) beyond two levels and proves the corresponding communication lower bound directly by induction, rather than through a reduction to Index.</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2610.36577v1</guid>
+    </item>
+    <item>
+      <title>TR26-286 |  On the complexities of Interactive Proofs of Proximity  | 
+
+	Noga Amit, 
+
+	Oded Goldreich</title>
+      <link>https://eccc.weizmann.ac.il/report/2026/286</link>
+      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;The plural in the title hints that there are several complexities involved here. 
+The most traditional one is the computational complexity of the verifier; but, in the context of Interactive Proofs of Proximity (IPPs), the query complexity of the verifier and the communication complexity of the system should take the front seat. 
+Hence, we avoid limiting the computational complexity of the verifier, since this limitation blurs the role of the main complexity measures that should be of interest in the case of IPPs. 
+
+Specifically, we consider IPPs in which the verifier strategy is only restricted by its query complexity and its communication complexity. 
+While we do not limit the computational complexity of the verifier, we do care about the computational complexity of the properties for which we prove a query+communication lower bound.
+Our results present a trade-off between the computational complexity of the properties for which query+communication lower bounds are asserted and complexity assumptions that condition these results.
+Specifically, letting $q$ and $c$ denote the query and communication complexities of IPPs (and letting $n$ denote the input length), we essentially prove  
+\begin{enumerate}
+\item An unconditional lower bound of $q(n)+c(n)=\Omega(n/\log n)$ for properties that are decidable in double-exponential time.
+\item Assuming that exponential-time (resp., NP) contains a set that does not have (non-uniform) small-exponential circuit size, we obtain a $q(n)+c(n)=\Omega(n/\log n)$ lower bound for properties that are decidable in exponential-time (resp., in NP).
+\item Assuming the existence of pseudorandom generators that fool small-exponential size circuits,
+we obtain a lower bound of $q(n)+c(n)=\Omega({\sqrt{n/\log n}})$ for properties that are decidable in P. 
+\end{enumerate}
+In contrast, recall that any property in uniform-NC has an IPP with $q(n)+c(n)={\widetilde O}({\sqrt n})$. 
+Hence, the almost linear lower bounds of the first two items are unlikely to be proven unconditionally for properties in NP. 
+
+In the foregoing text, $c(n)$ denotes the total number of bits exchanged between the two parties (in both directions).
+One may wonder whether similar bounds hold when considering only the number of bits communicated by the prover, denoted $p(n)$.
+We show that this is essentially the case, by proving that the verifier gains almost nothing by sending
+messages of length exceeding $O(q(n)\cdot\log n)$.
+Specifically, we show that if $\Pi$ has an $r(n)$-round IPP in which the prover sends at most $p(n)$ bits
+and the verifier makes at most $q(n)$ queries, then $\Pi$ has an $r(n)$-round IPP of query complexity $O(q(n))$ and communication complexity $O(p(n)+r(n)\cdot q(n)\cdot\log n)$.</description>
+      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/286</guid>
     </item>
   </channel>
 </rss>
