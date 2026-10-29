@@ -7,25 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 16:09:50 +0000</lastBuildDate>
-    <item>
-      <title>TR26-264 |  On Testing Finite Groups | 
-
-	Nader Bshouty</title>
-      <link>https://eccc.weizmann.ac.il/report/2026/264</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: sublinear&lt;/p&gt;Let $G=[n]$ and let an unknown binary operation $*:G\times G\to G$ be given by oracle access to its multiplication table. The tester is given $n$ explicitly as part of its input. A query chooses $x,y\in G$ and receives $x*y$.  We study randomized adaptive two-sided property testers for deciding whether $(G,*)$ is a group. An input is considered far from the property if one must change at least an $\epsilon$-fraction of the $n^2$ table entries in order to obtain any group operation on the same labeled set.
-
-We prove three results.  First, there is a tester using $$O\left(n+\frac1\epsilon\right)$$
-queries and $\tilde O\left(n+1/\epsilon\right)$ time. In fact, this tester has one-sided error. This improve the Goldreich-Tauber tester~\cite{GoldreichTauber25}, that uses $\tilde O(n/\epsilon)$ queries.  
-
-Second, if computational efficiency is ignored, a dictionary-and-locator construction combined with an action-consistency test on an expanding Cayley graph gives a tester using
-$$\tilde O\left(\sqrt{\frac n\epsilon}+\frac1\epsilon\right)$$
-queries. This is the first query complexity bound for this problem that is sublinear in $n$.
-
-Third, there are infinitely many values of $n$ for which every adaptive randomized two-sided tester needs   $$\Omega \left(n^{1/5}+\frac1\epsilon\right)$$
-queries. This improves on the $\Omega(\log n)$ lower bound of Goldreich and Tauber. The lower bound uses two randomly relabeled abelian groups of almost equal orders, embeds them into multiplication tables on the same $n$-element set, and couples arbitrary adaptive query transcripts.</description>
-      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/264</guid>
-    </item>
+    <lastBuildDate>Thu, 29 Oct 2026 21:09:26 +0000</lastBuildDate>
     <item>
       <title>TR26-265 |  Near-Optimal Bounds for Testing Residual-String Equality and Parenthesis Languages | 
 
