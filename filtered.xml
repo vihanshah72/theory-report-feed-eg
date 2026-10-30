@@ -7,17 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 21:09:26 +0000</lastBuildDate>
-    <item>
-      <title>TR26-265 |  Near-Optimal Bounds for Testing Residual-String Equality and Parenthesis Languages | 
-
-	Hadar Strauss</title>
-      <link>https://eccc.weizmann.ac.il/report/2026/265</link>
-      <description>&lt;p&gt;&lt;strong&gt;Filter match:&lt;/strong&gt; keyword: query complexity&lt;/p&gt;Residual-String Equality, denoted $\text{ResStringEq}$, is the property consisting of all pairs of strings over $\{0,1,*\}$ that are equal after deleting all `$*$' symbols from them. This property was first introduced by Fischer, Magniez, and Starikovskaya (SODA 2018), who used it to show a lower bound on testing the $\text{Dyck}$ languages, where $\text{Dyck}_m$ is the language consisting of balanced sequences of parentheses over $m$ parenthesis types. They showed that testing $\text{ResStringEq}$ on inputs of length $n$ requires $\Omega(n^{1/5})$ queries, and presented a reduction from testing $\text{ResStringEq}$ to testing $\text{Dyck}_m$ for any $m \geq 2$. Furthermore, they showed that $\text{Dyck}_m$ can be tested with $O(n^{2/5+\delta})$ queries for every constant proximity parameter, where $\delta&amp;gt;0$ is an arbitrarily small constant.
-
-In this work, we nearly close the gap, by showing that testing $\text{ResStringEq}$, and hence $\text{Dyck}_m$ (for any $m\geq 2$), requires $\Omega(n^{2/5})$ queries. We also show a stronger lower bound of $\Omega(\sqrt{n})$ for testers that make non-adaptive queries. We establish that the $\Omega(\sqrt{n})$ bound is nearly tight, by presenting a non-adaptive tester for $\text{ResStringEq}$ that uses $O(n^{1/2+\delta})$ queries for an arbitrarily small constant $\delta&amp;gt;0$. Furthermore, we extend this non-adaptive tester to the $\text{Dyck}$ languages, with the same query complexity. Finally, we improve the dependence on the proximity parameter $\epsilon$ in the tester of Fischer, Magniez, and Starikovskaya, reducing it from $O(1/\epsilon)^{\mathrm{poly}(1/\delta)}$ to $O(1/\epsilon)^{O(\log(1/\delta))}$.</description>
-      <guid isPermaLink="false">https://eccc.weizmann.ac.il/report/2026/265</guid>
-    </item>
+    <lastBuildDate>Fri, 30 Oct 2026 01:03:28 +0000</lastBuildDate>
     <item>
       <title>A 2/3-Approximation Algorithm for the Residual Maximum Matching Problem in General Graphs</title>
       <link>https://arxiv.org/abs/2610.27833v1</link>
